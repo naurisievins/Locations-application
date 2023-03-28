@@ -10,7 +10,7 @@
 - Run the command `docker-compose up --build`. This will build and start the Docker containers needed to run the application.
 - Once the application has loaded, open your browser and navigate to http://localhost:5173/.
 
-Tools used:
+### Tools used:
 
 - Mockaroo (https://www.mockaroo.com/) for generating a list of random names, latitudes, and longitudes to use in the application.
 - Docker (https://www.docker.com/) for containerizing and running all necessary servers for the application.
