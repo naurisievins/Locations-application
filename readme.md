@@ -1,6 +1,6 @@
 # Location application with leaflet
 
-<img src='https://upload.cc/i1/2023/03/28/5Hr41N.jpeg' alt='App preview' width='600px' />
+<img src='https://upload.cc/i1/2023/03/28/5Hr41N.jpeg' alt='App preview' width='800px' />
 
 ### To run the application:
 
