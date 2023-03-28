@@ -6,8938 +6,1004 @@ CREATE TABLE
         `longitude` varchar(20) NOT NULL,
         PRIMARY KEY (`id`)
     );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        1,
-        'Waxwing',
-        20.1591959,
-        -100.5064114
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        2,
-        'Magdeline',
-        -27.0007882,
-        27.3733989
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        3,
-        'Arrowood',
-        34.756916,
-        114.441285
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        4,
-        'Redwing',
-        34.2412845,
-        108.9652643
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        5,
-        'Montana',
-        5.4942923,
-        -72.0942187
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        6,
-        'Mayfield',
-        23.1261788,
-        113.2689358
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        7,
-        'Donald',
-        35.761829,
-        115.029215
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        8,
-        'Eliot',
-        -41.2070875,
-        -72.5387781
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        9,
-        'Manufacturers',
-        59.8913759,
-        10.680635
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        10,
-        'Pankratz',
-        13.8135951,
-        100.4227992
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        11,
-        'Susan',
-        53.3326454,
-        -1.4631269
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        12,
-        'Hagan',
-        30.594336,
-        105.236903
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        13,
-        'Stuart',
-        56.5092219,
-        25.7635891
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        14,
-        'Springview',
-        35.4709893,
-        -5.4057358
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        15,
-        'Reinke',
-        10.5942421,
-        104.1640355
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        16,
-        'Crownhardt',
-        36.8047032,
-        137.4474511
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        17,
-        'Florence',
-        48.3424531,
-        24.5753746
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        18,
-        'Grover',
-        32.0366011,
-        35.7288398
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        19,
-        'Fieldstone',
-        39.079722,
-        117.17443
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        20,
-        'Steensland',
-        53.6978211,
-        91.6963172
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        21,
-        'Cherokee',
-        31.269454,
-        95.63196
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        22,
-        'Marquette',
-        60.392798,
-        5.3223461
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        23,
-        'Lyons',
-        57.4357357,
-        13.9788932
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        24,
-        'Armistice',
-        37.646108,
-        120.477813
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        25,
-        'Packers',
-        30.723066,
-        121.245717
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        26,
-        'Sutteridge',
-        48.6160168,
-        35.398479
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        27,
-        'Arapahoe',
-        46.69823,
-        -71.58275
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        28,
-        'Dayton',
-        15.8048323,
-        120.9997478
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        29,
-        'Nancy',
-        41.8012304,
-        43.4814896
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        30,
-        'Daystar',
-        -9.3550932,
-        -37.1901616
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        31,
-        'Prentice',
-        -8.3765619,
-        115.1918802
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        32,
-        'Northwestern',
-        41.1637808,
-        44.8746069
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        33,
-        'Comanche',
-        41.7195748,
-        21.7669761
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        34,
-        'Sugar',
-        -6.985714,
-        110.431156
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        35,
-        'Spenser',
-        31.9339724,
-        118.670339
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        36,
-        'Eliot',
-        -23.5000295,
-        -46.8598812
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        37,
-        'Stoughton',
-        35.0435187,
-        25.0928704
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        38,
-        'Hoard',
-        64.5958098,
-        18.6763669
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        39,
-        'Cordelia',
-        -17.7765356,
-        177.4356227
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        40,
-        'Stuart',
-        34.481455,
-        108.386208
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        41,
-        'Caliangt',
-        33.2437603,
-        131.6853045
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        42,
-        'Mallard',
-        -7.258661,
-        107.7710234
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        43,
-        'Mifflin',
-        24.388837,
-        107.851428
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        44,
-        'Hallows',
-        27.087637,
-        114.964696
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        45,
-        'Sachs',
-        51.0640549,
-        20.3927571
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        46,
-        'Reinke',
-        -6.6913037,
-        107.9679983
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        47,
-        'Mallard',
-        37.1321706,
-        26.8529432
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        48,
-        'Fairfield',
-        34.933333,
-        126.583333
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        49,
-        'Maple',
-        15.5653934,
-        120.6147766
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        50,
-        'Continental',
-        -11.5886713,
-        43.277533
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        51,
-        'Summerview',
-        53.2650844,
-        22.9045174
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        52,
-        'Redwing',
-        -0.2467982,
-        109.6163185
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        53,
-        'Crest Line',
-        20.3650844,
-        -76.4302771
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        54,
-        'Bayside',
-        -12.6735557,
-        -39.1016848
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        55,
-        'Garrison',
-        -11.7401439,
-        24.4232735
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        56,
-        'Elka',
-        15.0286165,
-        -23.563922
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        57,
-        'Ronald Regan',
-        20.7365652,
-        -76.331889
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        58,
-        'Continental',
-        -26.5524312,
-        29.0750837
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        59,
-        'Lukken',
-        30.807667,
-        108.408661
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        60,
-        'Kensington',
-        -8.2030974,
-        113.7329154
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        61,
-        'Dixon',
-        58.3971367,
-        56.4158867
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        62,
-        'Cottonwood',
-        -6.2377312,
-        107.0568962
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        63,
-        'Erie',
-        54.7993525,
-        38.297354
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        64,
-        'Fieldstone',
-        40.6500061,
-        69.9877879
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (65, '2nd', 32.18966, 34.97063);
-
-insert into
-    locations (id, name, latitude, longitude)
-values (66, 'Mesta', 7.20417, 124.43972);
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        67,
-        'Nelson',
-        -8.6866263,
-        -36.2847751
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        68,
-        'Fairfield',
-        37.429832,
-        110.88907
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        69,
-        'Warrior',
-        4.4796434,
-        -75.5975296
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        70,
-        'Portage',
-        -20.4363727,
-        -51.3050851
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        71,
-        'Claremont',
-        47.2391802,
-        9.5572045
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        72,
-        'Mccormick',
-        53.2198089,
-        63.6354232
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        73,
-        'Bonner',
-        6.1413122,
-        6.8029489
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        74,
-        'Goodland',
-        -23.6515085,
-        -46.8521864
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        75,
-        'Ridgeview',
-        28.3285373,
-        109.6029048
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        76,
-        'Calypso',
-        -6.5483,
-        105.9235
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        77,
-        'Maryland',
-        24.094765,
-        116.00509
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        78,
-        'Warbler',
-        -6.4837208,
-        106.8413372
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        79,
-        'Hoard',
-        0.6183138,
-        -77.9424531
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        80,
-        'Pierstorff',
-        -27.4249796,
-        30.8190797
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        81,
-        'Farmco',
-        38.9516688,
-        -9.4027992
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        82,
-        'Tennessee',
-        24.722747,
-        118.152148
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        83,
-        'La Follette',
-        5.489059,
-        7.0175879
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        84,
-        'Pawling',
-        31.5233543,
-        73.2571865
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        85,
-        'Scott',
-        -9.6447416,
-        124.779603
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        86,
-        'Valley Edge',
-        -24.0021525,
-        -48.3502883
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        87,
-        'Schmedeman',
-        41.2870015,
-        20.321945
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        88,
-        'Lakewood',
-        34.34866,
-        106.009915
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        89,
-        'Waubesa',
-        7.9903188,
-        5.1249662
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        90,
-        'Jenna',
-        6.2958736,
-        101.7296049
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        91,
-        'Westport',
-        32.391736,
-        119.435046
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        92,
-        'Lakewood',
-        28.3079856,
-        117.697041
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        93,
-        'Melody',
-        46.7152613,
-        -1.4517985
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        94,
-        'Springview',
-        33.2667748,
-        131.5110953
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        95,
-        'La Follette',
-        57.6602926,
-        59.656685
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (96, 'Utah', 69.63186, 18.9221);
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        97,
-        'Towne',
-        49.8046835,
-        73.1093826
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        98,
-        'Cardinal',
-        37.73892,
-        115.670177
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        99,
-        'Southridge',
-        59.3362401,
-        18.0232365
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        100,
-        'Corscot',
-        59.6535297,
-        18.3648033
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        101,
-        'Meadow Valley',
-        40.1324085,
-        64.4911086
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        102,
-        'Wayridge',
-        31.563513,
-        104.570694
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        103,
-        'Cambridge',
-        30.42594,
-        111.76053
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        104,
-        'Hansons',
-        44.4280906,
-        18.6066275
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        105,
-        'Sundown',
-        43.2600338,
-        17.6896073
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        106,
-        'Fuller',
-        47.797708,
-        5.2787119
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        107,
-        'Leroy',
-        47.9392632,
-        32.5560249
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        108,
-        'Pleasure',
-        42.8970535,
-        -8.5418899
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        109,
-        'Duke',
-        41.3456622,
-        23.9060624
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        110,
-        'Summit',
-        13.70832,
-        100.5201019
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        111,
-        'Lindbergh',
-        53.3169419,
-        -6.251714
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        112,
-        'Vermont',
-        60.2231622,
-        19.5595375
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        113,
-        'Jenna',
-        36.494701,
-        117.861851
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        114,
-        'Towne',
-        13.9300945,
-        120.9522977
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        115,
-        'La Follette',
-        45.6518526,
-        16.5355901
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (116, '7th', -7.229, 106.9856);
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        117,
-        'Killdeer',
-        55.662882,
-        37.5826719
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        118,
-        'Buhler',
-        25.505194,
-        108.484536
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        119,
-        'Superior',
-        41.9483514,
-        45.8147918
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        120,
-        'Forest',
-        1.1706966,
-        33.7098569
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        121,
-        'Transport',
-        51.8851246,
-        -0.4111111
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        122,
-        'Sherman',
-        -8.2837447,
-        123.2812562
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        123,
-        'Fallview',
-        36.7240776,
-        51.1141183
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        124,
-        'Karstens',
-        22.62097,
-        100.721884
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        125,
-        'Esker',
-        40.1976461,
-        124.5351538
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        126,
-        'Homewood',
-        56.0663761,
-        47.4456489
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        127,
-        'Loftsgordon',
-        48.85917,
-        27.7969
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        128,
-        'Lien',
-        49.6076079,
-        20.0926064
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        129,
-        'Saint Paul',
-        39.8265279,
-        46.7655746
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        130,
-        'Center',
-        34.2818498,
-        109.002843
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        131,
-        'Continental',
-        17.622182,
-        120.6190252
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        132,
-        'Messerschmidt',
-        33.505152,
-        112.423014
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        133,
-        'Washington',
-        -14.12,
-        -71.47278
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        134,
-        'Elgar',
-        31.5319623,
-        -7.4841222
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        135,
-        'Oakridge',
-        32.059093,
-        118.627894
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        136,
-        'Sommers',
-        44.1666669,
-        104.5
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        137,
-        'Rieder',
-        12.6400252,
-        10.7048554
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        138,
-        'Mesta',
-        -2.8670033,
-        30.5322273
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        139,
-        'Dakota',
-        54.3880144,
-        85.797215
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        140,
-        'Lotheville',
-        -6.9014042,
-        106.8370122
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        141,
-        'Sutteridge',
-        0.0851034,
-        -76.8940156
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        142,
-        'Washington',
-        4.1581668,
-        11.5361726
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        143,
-        'Morning',
-        -13.68828,
-        -72.019989
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        144,
-        'Mitchell',
-        44.367191,
-        20.9604515
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (145, 'Pine View', 36.15, -96);
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        146,
-        'Grover',
-        58.5118215,
-        13.4761783
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        147,
-        'Eliot',
-        52.3366443,
-        20.941429
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        148,
-        'Sutherland',
-        30.198506,
-        119.497769
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        149,
-        'Ruskin',
-        61.6614104,
-        40.2019954
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        150,
-        'Derek',
-        -8.5891214,
-        125.3411388
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        151,
-        'Paget',
-        55.1936526,
-        75.9684541
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        152,
-        'Elmside',
-        40.7086377,
-        19.9437314
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        153,
-        'Eastwood',
-        9.9152376,
-        123.9321966
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        154,
-        'Blackbird',
-        -6.924112,
-        -79.124367
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        155,
-        'Golf',
-        39.4643574,
-        21.6928339
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        156,
-        'Mccormick',
-        41.1782587,
-        -8.3257127
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (157, 'Cody', 49.8807, 115.72526);
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        158,
-        'Green',
-        -7.2723024,
-        112.7837381
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        159,
-        'Evergreen',
-        40.020575,
-        116.291322
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        160,
-        'Forest Dale',
-        40.1851386,
-        44.0033056
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        161,
-        'Logan',
-        43.960744,
-        124.582546
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        162,
-        'Continental',
-        55.3964659,
-        55.5580718
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        163,
-        'Commercial',
-        50.5856582,
-        16.3318151
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        164,
-        'Barby',
-        30.601966,
-        115.438847
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        165,
-        'Monica',
-        43.4945737,
-        5.8978018
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        166,
-        'Declaration',
-        -7.2893545,
-        -34.8403408
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        167,
-        'Pierstorff',
-        -6.8734228,
-        107.074614
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        168,
-        'Esch',
-        36.599744,
-        101.803717
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        169,
-        'Kedzie',
-        -9.9165208,
-        -70.1455805
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        170,
-        'Southridge',
-        51.8433045,
-        15.6903444
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        171,
-        'Lakewood Gardens',
-        40.62889,
-        20.05389
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        172,
-        'Daystar',
-        55.8346942,
-        13.6546035
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        173,
-        'Rigney',
-        40.7069884,
-        22.5450139
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        174,
-        'Sullivan',
-        35.1595454,
-        126.8526012
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        175,
-        'Scoville',
-        -2.9863926,
-        101.5134398
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        176,
-        'Sachs',
-        64.2456893,
-        23.8402057
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        177,
-        'Kingsford',
-        7.1170609,
-        -73.1526623
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        178,
-        'Norway Maple',
-        41.6338439,
-        25.3777119
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        179,
-        'Sachtjen',
-        44.1675867,
-        2.0308233
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        180,
-        'Lake View',
-        35.3252407,
-        51.6471987
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        181,
-        'Maywood',
-        40.981773,
-        24.802714
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        182,
-        'Oak Valley',
-        43.7441795,
-        2.511999
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        183,
-        'Prairieview',
-        40.902461,
-        116.621937
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        184,
-        'Larry',
-        29.492402,
-        118.604556
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        185,
-        'Algoma',
-        45.3180513,
-        42.846668
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        186,
-        'Forest Dale',
-        5.668899,
-        -72.994095
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        187,
-        'Chinook',
-        5.5304798,
-        95.3286078
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        188,
-        'Carey',
-        46.9483051,
-        1.9894311
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        189,
-        'Autumn Leaf',
-        30.706999,
-        120.421784
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        190,
-        'Northland',
-        46.3815074,
-        15.2950333
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        191,
-        'Susan',
-        41.4472964,
-        -8.5893138
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        192,
-        '2nd',
-        54.1347287,
-        33.2921685
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        193,
-        'Division',
-        59.2527176,
-        17.8864717
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        194,
-        'Mendota',
-        47.9318074,
-        5.2893597
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        195,
-        'Northridge',
-        16.084073,
-        120.026896
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        196,
-        'Quincy',
-        36.5750373,
-        52.026838
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        197,
-        'Northfield',
-        29.000347,
-        101.507294
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        198,
-        'Butternut',
-        7.6703363,
-        123.0043968
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        199,
-        'Hudson',
-        42.9786866,
-        141.8352113
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        200,
-        'Bartillon',
-        -22.38146,
-        27.59223
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        201,
-        'Parkside',
-        41.1399814,
-        -104.8202462
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        202,
-        'Marcy',
-        14.5024732,
-        120.9921722
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        203,
-        'Westerfield',
-        -7.0715432,
-        111.9758606
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        204,
-        'Johnson',
-        26.433417,
-        110.856622
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        205,
-        'Kingsford',
-        53.5180347,
-        36.2316564
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        206,
-        'Bunting',
-        37.6156855,
-        62.1571349
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        207,
-        'Redwing',
-        42.0943874,
-        43.080345
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (208, 'Acker', 52.3506, 31.1121);
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        209,
-        'Sage',
-        27.9961123,
-        -82.4290869
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        210,
-        '2nd',
-        0.9506036,
-        121.6054893
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        211,
-        'Corscot',
-        25.257168,
-        116.421093
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        212,
-        'Elgar',
-        38.1678374,
-        -8.1496483
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        213,
-        'Homewood',
-        0.0351644,
-        36.3642919
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        214,
-        'Utah',
-        41.0938736,
-        141.3941151
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        215,
-        'Old Gate',
-        46.5720029,
-        16.2877346
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        216,
-        'Bowman',
-        19.5403533,
-        -71.0790048
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        217,
-        'Service',
-        -9.9367,
-        120.151
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        218,
-        'Cardinal',
-        32.460037,
-        112.228897
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        219,
-        'Golden Leaf',
-        -10.3869996,
-        28.7023068
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        220,
-        'Hanover',
-        30.224367,
-        121.167368
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        221,
-        'Messerschmidt',
-        28.369399,
-        116.546998
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        222,
-        'Katie',
-        6.1747517,
-        -75.5160235
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        223,
-        'Hoard',
-        -21.9310093,
-        -50.5069723
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        224,
-        'Rowland',
-        8.5743021,
-        -70.3762423
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        225,
-        'Brickson Park',
-        49.0096906,
-        2.5479245
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        226,
-        'Riverside',
-        -7.0258756,
-        107.5176489
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        227,
-        'Crownhardt',
-        16.2413934,
-        -61.5340396
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        228,
-        'Fulton',
-        21.0256819,
-        106.9983133
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        229,
-        'Lukken',
-        16.7137921,
-        104.7345937
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        230,
-        'American',
-        -8.1966,
-        111.611
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        231,
-        'Ohio',
-        45.3689432,
-        -73.5408926
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        232,
-        'Del Mar',
-        3.5951956,
-        98.6722227
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        233,
-        'Fulton',
-        7.7526495,
-        -74.9442585
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        234,
-        'Bayside',
-        -6.7686246,
-        107.7517775
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        235,
-        'Bartelt',
-        14.3144265,
-        100.3722477
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        236,
-        'Saint Paul',
-        49.854824,
-        36.2090012
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        237,
-        'Algoma',
-        13.8494172,
-        99.408315
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        238,
-        'Dapin',
-        30.661419,
-        116.244678
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        239,
-        'Butternut',
-        -20.1325066,
-        28.626479
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        240,
-        'Heffernan',
-        48.7853082,
-        2.072661
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        241,
-        'Elgar',
-        34.962575,
-        105.480493
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        242,
-        'Blue Bill Park',
-        -3.233333,
-        114.533333
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        243,
-        'Bay',
-        -7.7812913,
-        110.5066489
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        244,
-        'Oxford',
-        27.9961123,
-        -82.4290869
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        245,
-        'Main',
-        -32.78333,
-        -71.21667
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        246,
-        'Gina',
-        46.6274254,
-        31.1947408
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        247,
-        'Marcy',
-        37.5923591,
-        21.6206833
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        248,
-        'Bayside',
-        55.3851413,
-        39.0323223
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        249,
-        'Meadow Ridge',
-        -38.9395203,
-        -68.1324297
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        250,
-        'Melrose',
-        36.6484118,
-        9.6146499
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        251,
-        'Forest',
-        -1.6258482,
-        99.1788304
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        252,
-        'Florence',
-        40.9880227,
-        24.6966476
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        253,
-        'Swallow',
-        11.4672917,
-        122.7314472
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        254,
-        'Maryland',
-        -6.633688,
-        107.1573142
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        255,
-        'Stone Corner',
-        46.5736928,
-        108.3006134
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        256,
-        'Logan',
-        35.7517244,
-        39.6156785
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        257,
-        'Vera',
-        59.9135958,
-        10.7792426
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        258,
-        'Goodland',
-        31.793861,
-        117.309522
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        259,
-        'Mallard',
-        53.95494,
-        16.5876701
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        260,
-        'Express',
-        12.3198776,
-        123.6895552
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        261,
-        'Moulton',
-        10.890811,
-        124.457075
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        262,
-        'Crescent Oaks',
-        49.663978,
-        90.2905901
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        263,
-        'Armistice',
-        25.362088,
-        118.691608
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        264,
-        'Rusk',
-        22.545902,
-        114.089617
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        265,
-        'Gulseth',
-        14.3160322,
-        121.0671937
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        266,
-        'Macpherson',
-        22.765392,
-        112.964446
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        267,
-        'Declaration',
-        -9.1113278,
-        -35.958777
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        268,
-        'Graceland',
-        -20.2384864,
-        47.375551
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        269,
-        'Daystar',
-        4.733779,
-        -74.2627569
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        270,
-        'Service',
-        6.7640051,
-        124.3754414
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        271,
-        'Arkansas',
-        16.8907872,
-        121.5670029
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        272,
-        'Fisk',
-        -3.3728836,
-        29.1448793
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        273,
-        'Eastlawn',
-        29.0755457,
-        -110.9610195
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        274,
-        'Melody',
-        38.540644,
-        141.064362
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        275,
-        'Lake View',
-        41.805137,
-        123.4699481
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        276,
-        'Summerview',
-        56.16667,
-        22.1
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        277,
-        'Tony',
-        24.686644,
-        106.809489
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        278,
-        'Ridge Oak',
-        -20.9304923,
-        55.5243352
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        279,
-        'Dryden',
-        3.0646746,
-        97.3290405
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        280,
-        'Weeping Birch',
-        59.5153313,
-        34.1866615
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        281,
-        'Jackson',
-        -7.116667,
-        111.716667
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        282,
-        'Hazelcrest',
-        -29.6540396,
-        -51.1848488
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        283,
-        'Victoria',
-        29.724589,
-        116.245433
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        284,
-        'Prairieview',
-        59.2411379,
-        17.9913767
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        285,
-        'Huxley',
-        13.4926528,
-        -89.0251022
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        286,
-        'Graedel',
-        28.8837687,
-        64.3855697
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        287,
-        'Comanche',
-        8.8340741,
-        3.7587457
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        288,
-        'Gale',
-        60.3560649,
-        5.3446343
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        289,
-        'Chinook',
-        8.27533,
-        -73.868176
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        290,
-        'Cottonwood',
-        15.1315727,
-        120.5976797
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        291,
-        'Sunbrook',
-        6.9655812,
-        125.4609462
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        292,
-        'Porter',
-        54.6680772,
-        25.1126281
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        293,
-        'Bunker Hill',
-        9.4535964,
-        12.0318456
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        294,
-        'Leroy',
-        8.0275675,
-        100.2375823
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        295,
-        '2nd',
-        50.2387924,
-        20.598352
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        296,
-        'Ludington',
-        30.8908344,
-        61.680106
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        297,
-        'Golf',
-        13.9686682,
-        120.7285858
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        298,
-        'Daystar',
-        -5.667322,
-        119.648399
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        299,
-        'Spaight',
-        28.918207,
-        120.001353
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        300,
-        'Fulton',
-        47.3591366,
-        2.8002946
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        301,
-        'Forster',
-        41.350131,
-        -8.294276
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        302,
-        'Golf View',
-        -7.355927,
-        110.6422198
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        303,
-        'Huxley',
-        1.1290835,
-        121.4056153
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        304,
-        'Clove',
-        29.2979895,
-        48.0510871
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        305,
-        'Northfield',
-        52.3648742,
-        17.4133285
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        306,
-        'Forest',
-        -34.0349557,
-        151.0998291
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        307,
-        'Anhalt',
-        49.689224,
-        6.0628765
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        308,
-        'Hollow Ridge',
-        32.009016,
-        112.122426
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        309,
-        'Del Mar',
-        29.584292,
-        111.380014
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        310,
-        'Prairieview',
-        33.189192,
-        120.103473
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        311,
-        'Lakewood',
-        31.3219,
-        121.01853
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        312,
-        'Starling',
-        -8.3765619,
-        115.1918802
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        313,
-        'Colorado',
-        6.8517845,
-        -73.111356
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        314,
-        'Twin Pines',
-        41.3575049,
-        -8.3482785
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        315,
-        'Vidon',
-        30.172782,
-        111.0765
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        316,
-        'Ohio',
-        51.85006,
-        -105.03443
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        317,
-        'Schlimgen',
-        18.2849318,
-        109.5907878
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        318,
-        'Maple',
-        34.391746,
-        49.1904301
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        319,
-        'Washington',
-        53.1042303,
-        15.0760167
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        320,
-        'Anderson',
-        39.9225394,
-        65.9214676
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        321,
-        'Fallview',
-        44.5454847,
-        18.1033619
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        322,
-        'Johnson',
-        55.6152783,
-        37.9416367
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        323,
-        'Caliangt',
-        -6.9909214,
-        113.8659097
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        324,
-        'Grayhawk',
-        46.9962539,
-        28.8716267
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        325,
-        'Calypso',
-        50.3382214,
-        83.5062548
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        326,
-        'Susan',
-        -30.3845133,
-        -56.4488086
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        327,
-        'Hagan',
-        20.0932902,
-        99.8013351
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        328,
-        'Swallow',
-        -3.6988282,
-        -42.5901672
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        329,
-        'Homewood',
-        22.637151,
-        114.012813
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        330,
-        'South',
-        40.7408774,
-        24.5772111
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        331,
-        'Meadow Vale',
-        45.212088,
-        130.478187
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        332,
-        'Autumn Leaf',
-        16.80778,
-        48.10917
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        333,
-        'Delaware',
-        35.9482858,
-        126.9575991
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        334,
-        'Ronald Regan',
-        48.8048649,
-        2.1203554
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        335,
-        'Dovetail',
-        9.442426,
-        123.236968
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        336,
-        'Golf',
-        -11.5644646,
-        -77.1743983
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        337,
-        'Grayhawk',
-        46.8439197,
-        -1.8718358
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        338,
-        'Fieldstone',
-        13.5655838,
-        7.0552218
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        339,
-        'Pond',
-        46.0714056,
-        40.8784823
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        340,
-        'Hansons',
-        40.6605521,
-        68.1789134
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        341,
-        'Hallows',
-        23.369136,
-        102.214609
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        342,
-        'Manley',
-        -10.1573402,
-        123.6010244
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        343,
-        'Marcy',
-        23.156045,
-        112.896606
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        344,
-        'Sage',
-        43.2270564,
-        22.0309456
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        345,
-        'Pennsylvania',
-        40.8318278,
-        44.2797884
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        346,
-        'Eastlawn',
-        -26.2297202,
-        -52.6711356
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        347,
-        'East',
-        44.509727,
-        18.0254081
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        348,
-        'Fair Oaks',
-        34.477513,
-        107.148314
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        349,
-        'Atwood',
-        63.8223321,
-        20.2753893
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        350,
-        'Russell',
-        -6.5881066,
-        105.6823124
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        351,
-        'Fordem',
-        51.43341,
-        -114.03528
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        352,
-        'Declaration',
-        5.8228231,
-        125.2060456
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        353,
-        'Bobwhite',
-        21.027964,
-        105.8510132
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        354,
-        'Mandrake',
-        48.8729498,
-        16.7664659
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        355,
-        'Delladonna',
-        3.8149378,
-        97.2005806
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        356,
-        'Cordelia',
-        -17.857298,
-        -42.8583915
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        357,
-        'Montana',
-        51.9777094,
-        36.9137821
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        358,
-        'Eagle Crest',
-        8.37083,
-        124.55944
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        359,
-        '3rd',
-        -7.0250344,
-        113.5758261
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        360,
-        'Arkansas',
-        -24.2099688,
-        -50.9263297
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        361,
-        'Elka',
-        19.2540302,
-        -99.6000391
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        362,
-        'Becker',
-        29.7440687,
-        106.9762193
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        363,
-        'Vernon',
-        -17.80257,
-        -57.776161
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        364,
-        'Graedel',
-        35.683952,
-        -105.943638
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        365,
-        'Reindahl',
-        -14.33056,
-        -170.75278
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        366,
-        'Memorial',
-        34.878483,
-        113.277504
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        367,
-        'Alpine',
-        46.119266,
-        73.6086655
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        368,
-        'Towne',
-        50.3171905,
-        2.801236
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        369,
-        'Melrose',
-        32.820169,
-        107.497055
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        370,
-        'Veith',
-        10.4309602,
-        -85.0966591
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        371,
-        'Del Mar',
-        5.067291,
-        -74.595361
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        372,
-        'Fulton',
-        49.6819305,
-        18.3673216
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        373,
-        'Gateway',
-        47.0165054,
-        -68.1430064
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        374,
-        'Jana',
-        63.24708,
-        29.9427343
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        375,
-        'Dryden',
-        30.42594,
-        111.76053
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        376,
-        'Ohio',
-        14.0666041,
-        -87.4678266
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        377,
-        'Spohn',
-        3.1398297,
-        101.6811249
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        378,
-        'Service',
-        10.5306091,
-        121.9482983
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        379,
-        'Quincy',
-        32.683659,
-        112.196621
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        380,
-        'Fuller',
-        -20.5362627,
-        47.2459749
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        381,
-        'Everett',
-        -8.3965,
-        123.0856
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        382,
-        'Colorado',
-        39.2762158,
-        -9.2806096
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        383,
-        'Becker',
-        -18.0833977,
-        -39.5499731
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        384,
-        'Grayhawk',
-        -33.6055625,
-        -62.6252102
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        385,
-        'Reindahl',
-        26.685936,
-        118.163788
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        386,
-        'Maple Wood',
-        -1.371775,
-        -48.3854399
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        387,
-        'Pennsylvania',
-        31.364902,
-        108.249509
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        388,
-        'Manley',
-        22.691253,
-        114.346251
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        389,
-        'Corben',
-        -8.2769363,
-        -77.3008506
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        390,
-        'Artisan',
-        -6.308009,
-        155.477221
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        391,
-        'Corry',
-        52.83797,
-        15.83104
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        392,
-        'Butternut',
-        -9.101629,
-        124.9120662
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        393,
-        'Twin Pines',
-        51.79909,
-        124.537673
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        394,
-        'Di Loreto',
-        31.42301,
-        35.13278
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        395,
-        'Walton',
-        43.473892,
-        5.367851
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        396,
-        'Hazelcrest',
-        45.875212,
-        6.087112
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        397,
-        'Lien',
-        8.4846735,
-        123.8022922
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        398,
-        'Elka',
-        47.0171563,
-        -68.1430273
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        399,
-        'Spohn',
-        12.0601649,
-        0.3654204
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        400,
-        'Springview',
-        29.1070609,
-        48.1239894
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        401,
-        'Spenser',
-        50.0326661,
-        19.3272642
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        402,
-        'Thompson',
-        -8.1224204,
-        -35.2888717
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        403,
-        'Kedzie',
-        39.8726158,
-        45.3575191
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        404,
-        '6th',
-        11.8859782,
-        -86.054235
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        405,
-        'Morning',
-        -7.6832323,
-        110.670528
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        406,
-        'Katie',
-        53.5659675,
-        15.28454
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        407,
-        'Sage',
-        49.6496394,
-        19.2224417
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        408,
-        'Vidon',
-        44.1372925,
-        4.810107
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        409,
-        'Armistice',
-        35.54729,
-        65.5676
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        410,
-        'Jana',
-        22.817002,
-        108.366543
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        411,
-        'Reindahl',
-        53.5180441,
-        30.2402914
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        412,
-        'Green',
-        49.8531509,
-        -119.611543
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        413,
-        'Corscot',
-        36.1398393,
-        128.1135947
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        414,
-        'Arrowood',
-        1.2296124,
-        -77.3439283
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        415,
-        'Westport',
-        49.1382421,
-        0.2312423
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        416,
-        'Bultman',
-        3.8353843,
-        103.2901816
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        417,
-        'Sunfield',
-        45.470831,
-        -73.7747742
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        418,
-        'Talisman',
-        16.7620996,
-        -93.1560055
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        419,
-        'Towne',
-        32.955581,
-        118.510616
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        420,
-        'Park Meadow',
-        30.671701,
-        -96.3438274
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        421,
-        'Nevada',
-        39.765701,
-        118.412764
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        422,
-        'Lake View',
-        38.416663,
-        112.734174
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        423,
-        'Ridge Oak',
-        10.5423489,
-        122.9635773
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (424, 'Melody', -6.598, 106.2248);
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        425,
-        'Dexter',
-        50.4315612,
-        4.4472854
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        426,
-        'Ramsey',
-        35.8439572,
-        136.1916906
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        427,
-        'Novick',
-        25.843691,
-        98.854532
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        428,
-        'Welch',
-        16.7587537,
-        96.2482149
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        429,
-        'Onsgard',
-        39.73287,
-        98.494548
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        430,
-        'Lawn',
-        13.420533,
-        123.41496
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        431,
-        'Helena',
-        59.4871523,
-        18.4207352
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        432,
-        'Mayfield',
-        45.2507706,
-        20.4661565
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        433,
-        'Dottie',
-        -6.4901067,
-        106.8306951
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        434,
-        'Spaight',
-        45.235059,
-        18.6364096
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        435,
-        'Schiller',
-        18.2540705,
-        -70.3600393
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        436,
-        'Sachs',
-        2.384507,
-        -75.542888
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        437,
-        'Londonderry',
-        57.9084788,
-        14.0698012
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        438,
-        'Canary',
-        36.091367,
-        120.494295
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        439,
-        'Monterey',
-        37.1691224,
-        -3.6002547
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        440,
-        'Pepper Wood',
-        32.8335722,
-        35.9642215
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        441,
-        'Jay',
-        35.8042947,
-        69.2877535
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        442,
-        'Shasta',
-        26.830199,
-        116.844405
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        443,
-        'Fallview',
-        11.66503,
-        -1.0634024
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        444,
-        'North',
-        19.0077085,
-        -69.7320914
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        445,
-        'Clove',
-        24.189754,
-        114.370768
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        446,
-        'Burning Wood',
-        35.1274285,
-        -80.8599193
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        447,
-        'High Crossing',
-        37.198731,
-        106.1580937
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        448,
-        'Park Meadow',
-        52.3346733,
-        19.2782681
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        449,
-        'Birchwood',
-        40.417311,
-        21.0565269
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        450,
-        'Lakeland',
-        28.7163066,
-        112.007869
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        451,
-        'Grasskamp',
-        17.1390992,
-        102.9715346
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        452,
-        'Paget',
-        -7.0898684,
-        109.3247866
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        453,
-        'Cambridge',
-        52.5295871,
-        18.2672515
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        454,
-        'Monterey',
-        52.0715558,
-        103.8262447
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        455,
-        'Sage',
-        17.0932938,
-        121.8542334
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        456,
-        'Melby',
-        40.576319,
-        110.044106
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        457,
-        'Wayridge',
-        16.9818844,
-        104.4490398
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        458,
-        'Waywood',
-        52.5077777,
-        5.4757709
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        459,
-        'Novick',
-        1.2408277,
-        23.611537
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        460,
-        'Brentwood',
-        49.5470892,
-        16.5735785
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        461,
-        'Hovde',
-        -34.588234,
-        -58.6876178
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        462,
-        'Pankratz',
-        53.2445421,
-        50.4047054
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        463,
-        'Southridge',
-        35.2897617,
-        137.1605839
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        464,
-        'Barby',
-        8.7550575,
-        -11.044307
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        465,
-        'Hoffman',
-        43.3994108,
-        44.7585599
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        466,
-        'Macpherson',
-        7.0024321,
-        -9.4728244
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        467,
-        'Bultman',
-        13.2206714,
-        -88.1401188
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        468,
-        'Grasskamp',
-        13.4522814,
-        101.1815568
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        469,
-        'Portage',
-        23.013168,
-        109.804001
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        470,
-        'John Wall',
-        -10.4152155,
-        -76.2356005
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        471,
-        'Browning',
-        -30.031249,
-        29.8439109
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        472,
-        'Scoville',
-        49.4562624,
-        20.2835741
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        473,
-        'Bluestem',
-        21.4198142,
-        106.7441048
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        474,
-        'Melvin',
-        -36.8868126,
-        -60.3003601
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        475,
-        'Dunning',
-        -11.22075,
-        -75.4694285
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        476,
-        'Moland',
-        46.0771644,
-        32.5299379
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        477,
-        'Merry',
-        51.7147076,
-        21.7780514
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        478,
-        'Norway Maple',
-        19.6616066,
-        -71.8363794
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        479,
-        'Sauthoff',
-        14.9699796,
-        145.6412079
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        480,
-        'Donald',
-        56.0485726,
-        12.6933337
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (481, 'Eliot', -6.8783, 106.3166);
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        482,
-        'Marquette',
-        39.704676,
-        122.955872
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        483,
-        'Anniversary',
-        14.26297,
-        121.1281849
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        484,
-        'Bunting',
-        59.2013654,
-        17.7689811
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        485,
-        'Hintze',
-        -6.8845063,
-        112.256285
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        486,
-        'Sloan',
-        -34.7008122,
-        -58.7034275
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        487,
-        'Arrowood',
-        34.805822,
-        104.773803
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        488,
-        'Iowa',
-        8.1526675,
-        39.3517483
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        489,
-        'Troy',
-        26.5590737,
-        31.6956705
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        490,
-        'Farmco',
-        59.1107233,
-        46.1539577
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        491,
-        'Warbler',
-        31.559274,
-        35.123932
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        492,
-        'Loeprich',
-        36.632873,
-        107.288356
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        493,
-        'Barby',
-        34.167484,
-        112.297729
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        494,
-        'Claremont',
-        49.5597209,
-        12.7714782
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        495,
-        'Ridgeview',
-        15.8359591,
-        104.4024704
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        496,
-        'Trailsway',
-        5.4238154,
-        -75.8185314
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        497,
-        'Scofield',
-        22.266978,
-        113.502213
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        498,
-        'Dovetail',
-        34.401112,
-        107.759245
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        499,
-        'Sauthoff',
-        36.883077,
-        22.5489792
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        500,
-        'Sheridan',
-        54.0474092,
-        38.404411
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        501,
-        'Tennyson',
-        15.8408607,
-        48.4837239
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        502,
-        'Lakeland',
-        -9.975524,
-        123.867401
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        503,
-        'Amoth',
-        11.5484585,
-        8.8583309
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        504,
-        'Blue Bill Park',
-        43.5660829,
-        22.2466754
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        505,
-        'Village',
-        38.809086,
-        112.214443
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        506,
-        'Esker',
-        -40.1929865,
-        175.2929384
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        507,
-        'Logan',
-        32.3569577,
-        119.3587638
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        508,
-        'Lakewood',
-        11.0980639,
-        107.678501
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        509,
-        'Forster',
-        -6.8734228,
-        107.074614
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        510,
-        'Moose',
-        5.7866228,
-        -6.5890166
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        511,
-        'Onsgard',
-        51.5105,
-        84.4813
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        512,
-        'Prairie Rose',
-        -17.8502636,
-        36.9218584
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        513,
-        'Bluestem',
-        -6.4178271,
-        106.0904721
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        514,
-        'Hanover',
-        34.392963,
-        104.063889
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        515,
-        'Moulton',
-        -4.1956379,
-        12.6733009
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        516,
-        'Carpenter',
-        -5.85,
-        -79.8833329
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        517,
-        'Killdeer',
-        25.558201,
-        103.256615
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        518,
-        'Swallow',
-        11.1673823,
-        122.6968025
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        519,
-        'Forest Run',
-        -5.9946384,
-        107.1326703
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        520,
-        'David',
-        50.2350707,
-        38.0596975
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        521,
-        'Scofield',
-        31.4727877,
-        72.9967658
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        522,
-        'Macpherson',
-        39.495941,
-        63.85672
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        523,
-        'Sage',
-        31.8742348,
-        10.9750484
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        524,
-        'Rutledge',
-        7.1934002,
-        15.2180188
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        525,
-        'Sommers',
-        -7.0117033,
-        108.3682641
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (526, 'Corry', -6.9524, 113.6487);
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        527,
-        'Colorado',
-        48.0778483,
-        39.7955373
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        528,
-        'New Castle',
-        38.694365,
-        -27.066757
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        529,
-        'Fieldstone',
-        18.0435607,
-        100.1031202
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        530,
-        'Anhalt',
-        5.1744472,
-        7.7145152
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        531,
-        'Eastwood',
-        48.8039832,
-        2.4347009
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        532,
-        'Warner',
-        40.9837776,
-        -7.6593048
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        533,
-        'Forest Dale',
-        25.784135,
-        104.953062
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        534,
-        'Blue Bill Park',
-        -9.8012675,
-        37.9201751
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        535,
-        'Hooker',
-        38.5642115,
-        -9.0940605
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        536,
-        'Norway Maple',
-        30.4333333,
-        117.8333333
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        537,
-        'Leroy',
-        43.61812,
-        118.05545
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        538,
-        'Dixon',
-        30.368126,
-        102.814531
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        539,
-        'American Ash',
-        39.29,
-        -76.61
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        540,
-        'Bobwhite',
-        35.2662059,
-        36.7118971
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        541,
-        'Merry',
-        42.1400691,
-        25.5719576
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        542,
-        'American Ash',
-        48.0482483,
-        -1.6329288
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        543,
-        'Clove',
-        38.7528669,
-        48.8475015
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        544,
-        'Thierer',
-        31.058765,
-        121.315718
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        545,
-        'Hagan',
-        47.7008606,
-        106.9577199
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        546,
-        'Cordelia',
-        -8.5790886,
-        116.9558067
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        547,
-        'Loomis',
-        31.191643,
-        121.389262
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        548,
-        'Coleman',
-        50.3406189,
-        21.050137
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        549,
-        'Mallard',
-        30.1533605,
-        88.7878678
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        550,
-        'Kensington',
-        -7.4983615,
-        108.5870607
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        551,
-        'Clemons',
-        33.2445659,
-        130.4529061
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        552,
-        'Stone Corner',
-        39.5022546,
-        -8.6542956
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        553,
-        'Dahle',
-        22.562964,
-        113.156269
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        554,
-        'Fulton',
-        41.26327,
-        71.54239
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        555,
-        'Jenifer',
-        36.3213507,
-        136.6477771
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        556,
-        'Sachs',
-        46.9554271,
-        79.6785264
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        557,
-        'Orin',
-        -9.7780409,
-        124.6524669
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        558,
-        'Porter',
-        22.396428,
-        114.109497
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        559,
-        'Buena Vista',
-        -7.9499222,
-        110.5304842
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        560,
-        'Prairieview',
-        60.7428382,
-        22.5352853
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        561,
-        'Village',
-        18.1965639,
-        120.5989577
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        562,
-        'Messerschmidt',
-        19.0807684,
-        -71.6986206
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        563,
-        'Starling',
-        -5.3202529,
-        104.6821048
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        564,
-        'Hollow Ridge',
-        -19.9672706,
-        -44.2011793
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        565,
-        'Thackeray',
-        30.930612,
-        108.697324
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        566,
-        'Schiller',
-        50.8022561,
-        20.80789
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        567,
-        'Badeau',
-        -26.8751803,
-        -52.4040853
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        568,
-        'Cherokee',
-        22.69569,
-        112.225334
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        569,
-        'Blaine',
-        45.1526707,
-        100.1073667
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        570,
-        'Forest Dale',
-        -7.0543824,
-        108.7690065
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        571,
-        'Warbler',
-        40.0534636,
-        44.5135399
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        572,
-        'Milwaukee',
-        6.0639962,
-        7.4760047
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        573,
-        'Fair Oaks',
-        29.689847,
-        121.28259
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        574,
-        'Barby',
-        48.9005909,
-        2.5197726
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        575,
-        'Browning',
-        27.96897,
-        68.80481
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        576,
-        'Toban',
-        34.569474,
-        112.83208
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        577,
-        'Norway Maple',
-        -12.0971829,
-        -77.032585
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        578,
-        'Butterfield',
-        29.718419,
-        104.585735
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        579,
-        'Prentice',
-        -5.5813904,
-        -44.3826116
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        580,
-        'Clarendon',
-        34.810487,
-        117.323725
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        581,
-        'Farragut',
-        22.669716,
-        114.026395
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        582,
-        'Fulton',
-        18.7396468,
-        100.6985738
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        583,
-        'Basil',
-        49.2152833,
-        17.7687416
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        584,
-        'Mosinee',
-        53.1250118,
-        7.0114962
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        585,
-        'Burrows',
-        -8.75815,
-        117.18602
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        586,
-        'Di Loreto',
-        30.5604564,
-        31.0079484
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        587,
-        '8th',
-        -6.8646647,
-        107.5889804
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        588,
-        'Sunfield',
-        -37.1534439,
-        -56.8913573
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        589,
-        'Kings',
-        52.1501483,
-        20.8188133
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        590,
-        'Warrior',
-        43.7549435,
-        11.2216134
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        591,
-        'Mifflin',
-        54.4265348,
-        18.4025756
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        592,
-        'Ridge Oak',
-        34.8118351,
-        126.3921664
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        593,
-        'Stuart',
-        -8.6738819,
-        115.2096864
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        594,
-        'Oak',
-        33.8153704,
-        -6.0573302
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        595,
-        'Lake View',
-        -4.1136576,
-        104.6442073
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        596,
-        'Hoepker',
-        16.5235265,
-        102.0832543
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        597,
-        'Di Loreto',
-        42.4338529,
-        68.8129042
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        598,
-        'Hollow Ridge',
-        -7.4250762,
-        108.2822389
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        599,
-        'Pine View',
-        40.2549207,
-        22.3420757
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        600,
-        'Delladonna',
-        53.1517598,
-        49.8698614
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        601,
-        'Pine View',
-        -3.366667,
-        33.95
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        602,
-        'Corben',
-        48.8423175,
-        14.6392384
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        603,
-        'John Wall',
-        50.0296342,
-        16.6005976
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        604,
-        'Independence',
-        30.574474,
-        103.923651
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        605,
-        'Oak',
-        17.2660394,
-        120.4194593
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        606,
-        'Hauk',
-        33.044814,
-        106.656635
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        607,
-        'Scofield',
-        24.310713,
-        110.64085
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        608,
-        'Fuller',
-        34.0724454,
-        72.0577733
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        609,
-        'Mccormick',
-        -6.08672,
-        105.95596
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        610,
-        'Stang',
-        61.7983586,
-        34.3753781
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        611,
-        'Jackson',
-        -5.667322,
-        119.648399
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        612,
-        'Butternut',
-        40.356194,
-        -8.0224709
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        613,
-        'South',
-        28.682984,
-        115.962144
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (614, 'Kipling', -9.64, 119.1631);
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        615,
-        'Hagan',
-        43.6522553,
-        45.3106104
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        616,
-        'Loeprich',
-        -27.4697707,
-        153.0251235
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        617,
-        'Johnson',
-        13.9051904,
-        -89.5002027
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        618,
-        'Oriole',
-        59.8079805,
-        17.6754261
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        619,
-        'Manley',
-        68.62602,
-        -95.87836
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        620,
-        'Fairview',
-        59.5785947,
-        9.2442028
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        621,
-        '3rd',
-        49.757244,
-        22.2174725
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        622,
-        'Lukken',
-        48.7233569,
-        14.6338236
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        623,
-        'Canary',
-        9.258006,
-        123.281809
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        624,
-        'Holmberg',
-        -6.1177509,
-        106.5024344
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        625,
-        'Becker',
-        -11.9929208,
-        -77.0518169
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        626,
-        'Vermont',
-        14.4612646,
-        100.5577407
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        627,
-        'Northridge',
-        57.9891702,
-        16.3106228
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        628,
-        'Warbler',
-        49.0535092,
-        16.8367681
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        629,
-        'Rutledge',
-        28.805453,
-        104.802326
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        630,
-        'Kedzie',
-        -6.1240368,
-        106.1009082
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        631,
-        'Butterfield',
-        63.8303942,
-        20.2848088
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        632,
-        'Lillian',
-        27.330904,
-        117.044081
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        633,
-        'Cottonwood',
-        38.1162631,
-        140.8585745
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        634,
-        'Mayfield',
-        25.49872,
-        119.790168
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        635,
-        'Forest Dale',
-        59.2452899,
-        18.2238211
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        636,
-        'Karstens',
-        13.3888199,
-        102.1175404
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        637,
-        'Northview',
-        8.2596,
-        -11.1914
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        638,
-        '6th',
-        22.9702067,
-        -82.3858672
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        639,
-        'Weeping Birch',
-        -7.3171858,
-        108.0997955
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        640,
-        'Loeprich',
-        -5.5169316,
-        120.0202964
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        641,
-        'Cascade',
-        -6.4937893,
-        -43.7039903
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        642,
-        'Division',
-        5.3847763,
-        95.9602371
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        643,
-        'Meadow Ridge',
-        -16.1178235,
-        23.2960171
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        644,
-        'North',
-        53.776647,
-        -7.5011999
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        645,
-        'Mcguire',
-        30.1902447,
-        31.1384342
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        646,
-        'East',
-        54.3880144,
-        85.797215
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        647,
-        'Mayfield',
-        30.378326,
-        111.450006
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        648,
-        'Becker',
-        49.11654,
-        -117.55222
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        649,
-        'Acker',
-        15.3843415,
-        -87.8058402
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        650,
-        'Ludington',
-        47.2457073,
-        -122.4773432
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        651,
-        'Welch',
-        24.5063217,
-        91.3565692
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        652,
-        'Crest Line',
-        52.5121401,
-        13.414046
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        653,
-        'Dakota',
-        -8.1928129,
-        115.1177654
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        654,
-        'Northland',
-        37.4784878,
-        126.8642888
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        655,
-        'Doe Crossing',
-        -8.1233399,
-        115.3389332
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        656,
-        'Troy',
-        48.0347132,
-        38.8114674
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        657,
-        'Northwestern',
-        49.9749295,
-        82.6017244
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        658,
-        'Graceland',
-        -36.8959075,
-        174.7738874
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        659,
-        'Burrows',
-        41.5780148,
-        19.6966667
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        660,
-        'Sommers',
-        12.7277133,
-        -86.3820191
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        661,
-        'Killdeer',
-        46.07034,
-        -72.81125
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        662,
-        'Gulseth',
-        40.338328,
-        119.73214
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        663,
-        'Lotheville',
-        53.8044834,
-        21.7303948
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        664,
-        'Packers',
-        -6.1989828,
-        106.5996595
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        665,
-        'Scoville',
-        -6.944465,
-        111.4782661
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (666, 'Jenifer', 15.8, 43.333333);
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        667,
-        'Dryden',
-        -14.9210683,
-        -49.609512
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        668,
-        'Buena Vista',
-        23.1639193,
-        113.3423334
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        669,
-        'Mesta',
-        49.7774163,
-        21.7112659
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        670,
-        'Tennyson',
-        30.453667,
-        114.872199
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        671,
-        'Springview',
-        3.2572094,
-        -77.2864879
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        672,
-        'Kenwood',
-        30.572815,
-        104.066801
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        673,
-        'Hollow Ridge',
-        50.1010604,
-        129.4430074
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        674,
-        'High Crossing',
-        39.505925,
-        106.726099
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        675,
-        'Summit',
-        11.5951195,
-        109.0364038
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        676,
-        'Warner',
-        8.235581,
-        123.8545713
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        677,
-        'Spenser',
-        -9.7028,
-        119.4717
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        678,
-        'Dahle',
-        49.566715,
-        17.1679608
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        679,
-        'Stang',
-        43.2270564,
-        22.0309456
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        680,
-        'Pepper Wood',
-        13.0748879,
-        120.7213113
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        681,
-        'Hintze',
-        -8.8341,
-        120.9593
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        682,
-        'Kinsman',
-        30.3114077,
-        31.3228799
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        683,
-        'Westerfield',
-        43.2894617,
-        5.3563232
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        684,
-        'Hayes',
-        47.524025,
-        124.458692
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        685,
-        'Cascade',
-        31.9453666,
-        35.9283716
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        686,
-        'Arapahoe',
-        -3.8847265,
-        130.897445
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        687,
-        'Lakeland',
-        38.63333,
-        21.36667
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        688,
-        'School',
-        -7.4104934,
-        110.3279026
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        689,
-        'Riverside',
-        -20.1217728,
-        -41.5612423
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        690,
-        'Ludington',
-        13.6855601,
-        100.444639
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        691,
-        'Di Loreto',
-        31.2840967,
-        130.3267278
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        692,
-        'Fairview',
-        -34.6573647,
-        -58.3626864
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        693,
-        'Forest',
-        51.653437,
-        39.183897
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        694,
-        'Coolidge',
-        49.689224,
-        6.0628765
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        695,
-        'Meadow Vale',
-        43.8047536,
-        25.9294198
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        696,
-        'Amoth',
-        -6.6758708,
-        -79.032016
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        697,
-        'Sachtjen',
-        3.3570113,
-        106.3316629
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        698,
-        'Transport',
-        53.2886387,
-        -6.1406578
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        699,
-        'Bunker Hill',
-        40.68,
-        -73.95
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        700,
-        'Troy',
-        43.9912932,
-        89.1806674
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        701,
-        'Old Shore',
-        14.8725628,
-        38.8100855
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        702,
-        'Beilfuss',
-        40.4339379,
-        21.9055846
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        703,
-        'Meadow Vale',
-        58.760833,
-        59.5550001
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        704,
-        'Farwell',
-        47.3807562,
-        8.517289
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        705,
-        'Eastwood',
-        30.857151,
-        120.185838
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        706,
-        'Anhalt',
-        -34.5838708,
-        -58.4160621
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        707,
-        'Sunnyside',
-        29.915093,
-        118.279198
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        708,
-        'Harper',
-        -6.9623022,
-        108.6383454
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        709,
-        'Fremont',
-        48.7277622,
-        100.7724281
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        710,
-        'Del Sol',
-        47.1900322,
-        102.8340449
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        711,
-        'Burning Wood',
-        20.3650844,
-        -76.4302771
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        712,
-        'Bluejay',
-        14.0804623,
-        -90.3793599
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        713,
-        'Pearson',
-        14.3745863,
-        120.8733403
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        714,
-        'Mesta',
-        7.1650433,
-        124.8772813
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        715,
-        'Portage',
-        61.5792581,
-        26.0188652
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        716,
-        'Barby',
-        22.7694444,
-        113.6216667
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        717,
-        'Roxbury',
-        -6.3783847,
-        -41.8004409
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        718,
-        'Canary',
-        34.894093,
-        106.836465
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        719,
-        'Kingsford',
-        26.4836842,
-        117.9249002
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        720,
-        'Pleasure',
-        29.25486,
-        111.626472
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        721,
-        'Farragut',
-        50.5860203,
-        27.6363775
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        722,
-        'Mariners Cove',
-        7.8193502,
-        -72.2238815
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        723,
-        'Bunker Hill',
-        41.267244,
-        123.236944
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        724,
-        'Delaware',
-        11.8334154,
-        108.8551484
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        725,
-        'Maryland',
-        43.1839958,
-        16.5992505
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        726,
-        'Eagan',
-        22.9664576,
-        97.7525352
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        727,
-        'Algoma',
-        6.4918217,
-        101.3885001
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        728,
-        'Kipling',
-        30.453667,
-        114.872199
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        729,
-        'Crest Line',
-        39.993684,
-        116.386545
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        730,
-        'Dayton',
-        59.0110968,
-        16.2239747
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        731,
-        'Mayer',
-        29.6970749,
-        106.6160052
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        732,
-        'Loftsgordon',
-        18.2002551,
-        -63.0692167
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        733,
-        'Hayes',
-        56.2254132,
-        87.7719548
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        734,
-        'Melvin',
-        24.326292,
-        109.428608
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        735,
-        'Dixon',
-        56.864192,
-        60.6396711
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        736,
-        'Gale',
-        9.561219,
-        123.777644
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        737,
-        'Magdeline',
-        23.642114,
-        104.888718
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        738,
-        'Amoth',
-        23.301616,
-        115.660142
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        739,
-        'Chive',
-        -27.284815,
-        -54.198107
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        740,
-        'Aberg',
-        36.588392,
-        115.891646
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        741,
-        'Hudson',
-        58.591557,
-        125.430748
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        742,
-        'Rowland',
-        41.6068468,
-        20.6036698
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        743,
-        'Oakridge',
-        -7.1675,
-        107.989
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        744,
-        'Lerdahl',
-        50.483457,
-        3.003076
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        745,
-        'Johnson',
-        44.5483119,
-        41.0350394
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        746,
-        'Warrior',
-        20.6536084,
-        -100.3469826
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        747,
-        'Shopko',
-        -6.6966609,
-        111.5840933
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        748,
-        'Muir',
-        -24.6131407,
-        25.8731407
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        749,
-        'Sutherland',
-        17.29788,
-        43.38718
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        750,
-        'Crescent Oaks',
-        11.0630379,
-        17.9324442
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        751,
-        'Melby',
-        53.3004898,
-        -6.2634596
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        752,
-        'Sunbrook',
-        0.0514721,
-        37.6456042
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        753,
-        'Talisman',
-        13.4570619,
-        123.6791749
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        754,
-        'Monterey',
-        36.285792,
-        120.601428
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        755,
-        'Hooker',
-        30.5453374,
-        -9.7089858
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        756,
-        'Bashford',
-        -7.0777168,
-        114.3489996
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        757,
-        'Scoville',
-        30.145,
-        -8.369444
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        758,
-        'Jackson',
-        35.302488,
-        117.002933
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        759,
-        'Dayton',
-        -6.3034502,
-        106.4563567
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        760,
-        'Trailsway',
-        14.6701,
-        121.108226
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        761,
-        'Vernon',
-        24.803563,
-        115.482733
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        762,
-        'Cottonwood',
-        -23.3233727,
-        -46.7294577
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        763,
-        'Hoepker',
-        39.1228935,
-        -95.624767
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        764,
-        'Macpherson',
-        50.5927407,
-        107.5886948
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        765,
-        'Reinke',
-        10.4113797,
-        107.136224
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        766,
-        'Cody',
-        23.020673,
-        113.751799
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        767,
-        'Bay',
-        -7.7090989,
-        109.6922026
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        768,
-        'Hovde',
-        25.566821,
-        -103.4295033
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        769,
-        'Dexter',
-        60.5708242,
-        22.097429
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        770,
-        'Golden Leaf',
-        39.816173,
-        77.37263
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        771,
-        'Moland',
-        -7.0807,
-        108.0663
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        772,
-        'Dryden',
-        12.5968345,
-        -85.7641013
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        773,
-        'Hagan',
-        31.6903638,
-        -106.4245478
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        774,
-        'Dixon',
-        49.51688,
-        -96.50029
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        775,
-        'Saint Paul',
-        11.0978809,
-        -2.0959429
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        776,
-        'Milwaukee',
-        28.0178637,
-        -80.7023819
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        777,
-        'Green Ridge',
-        -6.9620686,
-        108.4854717
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        778,
-        'Artisan',
-        51.7565958,
-        20.9183286
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        779,
-        'Elmside',
-        19.4102526,
-        -99.0073673
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        780,
-        'Westend',
-        38.143169,
-        117.497651
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        781,
-        'Bobwhite',
-        37.366903,
-        114.926383
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        782,
-        'Lakewood Gardens',
-        8.6761,
-        16.566
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        783,
-        'Dwight',
-        13.6197501,
-        25.3548713
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        784,
-        'Portage',
-        8.588397,
-        -73.840258
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        785,
-        'Garrison',
-        43.736236,
-        22.7219856
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        786,
-        'Pennsylvania',
-        13.6153077,
-        100.7434078
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        787,
-        'Trailsway',
-        7.3488,
-        125.7782
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        788,
-        'Rieder',
-        30.7664515,
-        70.9293858
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        789,
-        'Rigney',
-        53.3791711,
-        50.3248312
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        790,
-        'Hovde',
-        14.740281,
-        -91.2062
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        791,
-        'Dennis',
-        40.5410214,
-        44.7690148
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        792,
-        'Talisman',
-        31.298974,
-        120.585289
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        793,
-        'Monument',
-        7.0539999,
-        124.6719971
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        794,
-        'Drewry',
-        35.3218748,
-        46.9861647
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        795,
-        'Ridgeway',
-        37.5743169,
-        140.0611908
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        796,
-        'Derek',
-        39.9051618,
-        116.4624467
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        797,
-        'Helena',
-        51.0640549,
-        20.3927571
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        798,
-        'Straubel',
-        -32.9589969,
-        -68.8502434
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        799,
-        'Logan',
-        40.882377,
-        122.685217
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        800,
-        'Waxwing',
-        47.7963656,
-        67.7020019
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        801,
-        'Golf',
-        8.2260557,
-        124.2518415
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        802,
-        'Heffernan',
-        15.6941944,
-        121.1004925
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        803,
-        'Old Gate',
-        38.2514148,
-        20.6471688
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        804,
-        'Dryden',
-        -6.3323202,
-        106.0316898
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        805,
-        'Spenser',
-        50.168307,
-        14.4359068
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        806,
-        'Marcy',
-        64.012788,
-        11.487163
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        807,
-        'Hooker',
-        34.249832,
-        35.6642904
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        808,
-        'Valley Edge',
-        29.276391,
-        109.709717
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        809,
-        '5th',
-        49.6748894,
-        12.6736722
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        810,
-        'Commercial',
-        15.1248652,
-        120.6428123
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        811,
-        'Farwell',
-        5.8901373,
-        14.5480484
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        812,
-        'Artisan',
-        -6.921773,
-        107.61049
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        813,
-        'Sage',
-        14.7008738,
-        120.9869405
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        814,
-        'Roth',
-        41.0914367,
-        21.3367578
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        815,
-        'Gale',
-        -2.0349854,
-        147.279039
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        816,
-        'Elka',
-        35.580555,
-        100.761196
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        817,
-        'Arkansas',
-        43.4433559,
-        16.6929175
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        818,
-        'Walton',
-        49.2088164,
-        7.0075837
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        819,
-        'Kropf',
-        49.6885534,
-        -115.9220734
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        820,
-        'Bashford',
-        61.2320157,
-        22.0614693
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        821,
-        'Dawn',
-        27.804365,
-        120.738172
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        822,
-        'Hermina',
-        25.710538,
-        116.754472
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        823,
-        'Michigan',
-        40.570338,
-        116.554665
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        824,
-        'Stephen',
-        51.3410301,
-        22.753461
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        825,
-        'Esker',
-        32.5181019,
-        120.2550167
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        826,
-        'Express',
-        34.2872962,
-        133.9508311
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        827,
-        'Burrows',
-        56.1636909,
-        21.1594809
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        828,
-        'Chive',
-        0.4864487,
-        32.4764443
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        829,
-        'Killdeer',
-        9.5842012,
-        -5.1953554
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        830,
-        'Meadow Ridge',
-        46.3025462,
-        14.9534182
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        831,
-        'Merchant',
-        10.3719544,
-        123.9153917
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        832,
-        'Kennedy',
-        22.105035,
-        113.188183
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        833,
-        'Harper',
-        32.832584,
-        -96.797592
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        834,
-        'Mayfield',
-        -16.0010539,
-        -55.0493375
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        835,
-        'Lien',
-        31.5344951,
-        35.1245284
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        836,
-        'Meadow Vale',
-        34.477861,
-        110.084789
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        837,
-        'Stang',
-        28.0178637,
-        -80.7023819
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        838,
-        'Homewood',
-        -20.6444521,
-        -53.5635637
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        839,
-        'Jay',
-        52.4262274,
-        17.4890829
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        840,
-        'Corry',
-        4.908994,
-        97.380417
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        841,
-        'Kensington',
-        58.3786073,
-        11.4865869
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        842,
-        'Kenwood',
-        46.8146055,
-        29.4715186
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        843,
-        'Rockefeller',
-        38.9835516,
-        -9.0774591
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        844,
-        'Rowland',
-        41.103983,
-        114.05056
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        845,
-        'Mallory',
-        -0.6059095,
-        102.4151335
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        846,
-        'Dixon',
-        50.4614333,
-        19.0428325
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        847,
-        'Barnett',
-        30.830775,
-        112.98787
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        848,
-        'Graedel',
-        31.298974,
-        120.585289
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        849,
-        'Monument',
-        43.4945737,
-        5.8978018
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        850,
-        'Carberry',
-        34.955825,
-        107.905562
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        851,
-        'Aberg',
-        27.9676537,
-        120.6344509
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        852,
-        'Mccormick',
-        38.468991,
-        114.745138
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        853,
-        'Roxbury',
-        33.612843,
-        113.667436
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        854,
-        'Village',
-        54.7767925,
-        56.0399438
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        855,
-        'Becker',
-        53.0222045,
-        -112.8285983
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        856,
-        'Duke',
-        51.256002,
-        7.1736304
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        857,
-        'Ohio',
-        50.614436,
-        19.46436
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        858,
-        'Carey',
-        14.5701829,
-        121.0202323
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        859,
-        'Arrowood',
-        6.6249454,
-        -1.2073261
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        860,
-        'Mandrake',
-        49.0422777,
-        2.03776
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        861,
-        'Anderson',
-        37.3100775,
-        -5.9647536
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (862, 'Arrowood', -12.4, -74.7);
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        863,
-        'Raven',
-        34.657162,
-        104.549685
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        864,
-        'Scott',
-        39.1192173,
-        117.1944016
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        865,
-        'Ridgeway',
-        28.682309,
-        118.244769
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        866,
-        'Merrick',
-        57.4694803,
-        -3.1269422
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        867,
-        'Westend',
-        49.8921732,
-        2.3000664
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        868,
-        'Mandrake',
-        13.0968511,
-        -59.6144819
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        869,
-        'Susan',
-        49.9742883,
-        23.5488713
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        870,
-        'Cottonwood',
-        16.5235265,
-        102.0832543
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        871,
-        'Sheridan',
-        8.27533,
-        -73.868176
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        872,
-        'Farmco',
-        48.0515029,
-        6.535628
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        873,
-        'Sloan',
-        33.5727724,
-        36.4093761
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        874,
-        'Redwing',
-        40.657978,
-        109.840313
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        875,
-        'Shelley',
-        31.7751564,
-        117.2102637
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        876,
-        'Londonderry',
-        49.9321242,
-        17.8000468
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        877,
-        'Hovde',
-        55.9129296,
-        13.1018168
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        878,
-        'Knutson',
-        -31.372506,
-        -64.182416
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        879,
-        'Heffernan',
-        23.219932,
-        102.835223
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        880,
-        'Chinook',
-        49.7123742,
-        17.9032009
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        881,
-        'Maple',
-        38.7280454,
-        -9.3225944
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        882,
-        'Anniversary',
-        48.9486344,
-        17.2848785
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        883,
-        'Orin',
-        22.4423218,
-        114.1655064
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        884,
-        'Carpenter',
-        -7.4565208,
-        108.0272646
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        885,
-        'Debra',
-        8.955271,
-        126.009711
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        886,
-        'Golf Course',
-        39.672791,
-        113.732809
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        887,
-        'Algoma',
-        -20.2081037,
-        57.408999
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        888,
-        'Ludington',
-        34.1840093,
-        71.7791319
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        889,
-        'Reindahl',
-        47.3410322,
-        1.1586866
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        890,
-        'Hagan',
-        40.7046234,
-        23.652122
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        891,
-        'Packers',
-        -6.9818839,
-        110.447063
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        892,
-        'Walton',
-        57.6890848,
-        12.1646899
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        893,
-        'Moland',
-        53.0329376,
-        23.6062185
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        894,
-        'Algoma',
-        33.9255183,
-        -83.9214896
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        895,
-        'Sunfield',
-        41.4633308,
-        21.0495247
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        896,
-        'Washington',
-        -3.3552972,
-        102.7364962
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        897,
-        'Darwin',
-        12.5350875,
-        124.7907837
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        898,
-        'Summit',
-        13.6205,
-        122.8913
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        899,
-        'Dapin',
-        36.6755608,
-        10.1535196
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        900,
-        'Fuller',
-        22.705124,
-        113.316811
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        901,
-        'Delaware',
-        49.25362,
-        6.16417
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        902,
-        'Lunder',
-        54.4823669,
-        17.486283
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        903,
-        'Jenna',
-        53.0917381,
-        -8.2215941
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        904,
-        'Golf Course',
-        -37.8060734,
-        -72.7038047
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        905,
-        'Schlimgen',
-        50.0099822,
-        17.0336959
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        906,
-        'Almo',
-        34.8100067,
-        67.8212104
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        907,
-        'Kropf',
-        38.7894166,
-        -9.2036136
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        908,
-        'Farwell',
-        30.172782,
-        111.0765
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        909,
-        'Dunning',
-        31.920658,
-        120.284938
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        910,
-        'Menomonie',
-        -8.2412718,
-        112.0744643
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        911,
-        'Hansons',
-        36.627577,
-        101.756785
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        912,
-        'Laurel',
-        31.827364,
-        119.9690478
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        913,
-        'Buell',
-        13.717481,
-        5.3520876
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        914,
-        'Walton',
-        19.3972335,
-        -99.1933664
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        915,
-        'Bobwhite',
-        35.656128,
-        112.117922
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        916,
-        'Northfield',
-        48.9782015,
-        4.3827303
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        917,
-        'Farmco',
-        44.0264621,
-        5.0852479
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        918,
-        'Fulton',
-        37.9750066,
-        140.2463811
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        919,
-        'Loftsgordon',
-        -32.90269,
-        18.7671299
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        920,
-        'Mandrake',
-        -6.55307,
-        106.27124
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        921,
-        'Swallow',
-        3.9628564,
-        101.866362
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        922,
-        'Farragut',
-        25.5225011,
-        111.7226167
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        923,
-        'Mockingbird',
-        -7.6155556,
-        112.6211111
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        924,
-        'Delladonna',
-        -7.4104934,
-        110.3279026
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        925,
-        'Menomonie',
-        49.981736,
-        16.5730485
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        926,
-        'Lindbergh',
-        40.8690303,
-        -73.8477874
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        927,
-        'Judy',
-        38.058088,
-        117.230602
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        928,
-        'Golden Leaf',
-        -6.1856385,
-        106.8430596
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        929,
-        'Kensington',
-        36.1228302,
-        -111.2236913
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        930,
-        'Walton',
-        56.5501038,
-        26.9229659
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        931,
-        'Erie',
-        28.753497,
-        105.888827
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        932,
-        'Becker',
-        -8.5769332,
-        -35.9369952
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        933,
-        'Mitchell',
-        -6.4048381,
-        106.0140586
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        934,
-        'Longview',
-        -31.399061,
-        -64.2385396
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        935,
-        'Marquette',
-        28.39571,
-        107.752611
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        936,
-        'East',
-        -6.8734228,
-        107.074614
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        937,
-        'Glendale',
-        -6.161513,
-        106.838424
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        938,
-        'Maple Wood',
-        47.0505635,
-        15.4828066
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        939,
-        'Elka',
-        7.0232835,
-        122.1882382
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        940,
-        'Hanover',
-        -7.2157251,
-        107.901989
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        941,
-        'Harbort',
-        45.116904,
-        42.503334
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        942,
-        'Kennedy',
-        48.7730603,
-        14.2851033
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        943,
-        'Hoepker',
-        53.00942,
-        17.73989
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        944,
-        'Eliot',
-        -17.3547843,
-        -63.3977316
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        945,
-        'Sachs',
-        -9.7464338,
-        124.4309165
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        946,
-        'Cardinal',
-        49.6085752,
-        16.6797892
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        947,
-        'Washington',
-        7.8005685,
-        -3.1629063
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        948,
-        'New Castle',
-        2.7121164,
-        97.9157099
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        949,
-        'West',
-        14.5748924,
-        -87.8782959
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        950,
-        'Lindbergh',
-        29.972084,
-        106.27613
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        951,
-        'Parkside',
-        7.32688,
-        124.297205
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        952,
-        'Lawn',
-        -8.1241998,
-        111.9924913
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        953,
-        'Longview',
-        47.719429,
-        107.795502
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        954,
-        'Quincy',
-        8.3331847,
-        123.8426301
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        955,
-        'Hagan',
-        35.4383695,
-        137.2435332
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        956,
-        'Lerdahl',
-        -12.3992902,
-        -74.8659421
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        957,
-        'Lien',
-        53.4698755,
-        35.0963837
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        958,
-        'Northport',
-        60.0645803,
-        30.4842001
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        959,
-        'Dapin',
-        37.9904219,
-        23.6583002
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        960,
-        'Chive',
-        45.4399116,
-        -73.2875277
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        961,
-        'Brown',
-        54.4676703,
-        37.3384052
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        962,
-        'Butternut',
-        8.972681,
-        125.408732
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        963,
-        'Browning',
-        -33.8989712,
-        151.2149792
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        964,
-        'Arrowood',
-        32.032275,
-        118.449305
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        965,
-        'Blackbird',
-        49.2099156,
-        17.5307761
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        966,
-        'Union',
-        36.962883,
-        115.260968
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        967,
-        'Marcy',
-        38.088041,
-        114.322047
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        968,
-        'Fieldstone',
-        -12.6010371,
-        -38.965934
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        969,
-        'Dennis',
-        53.84455,
-        18.09998
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        970,
-        'Erie',
-        51.7318422,
-        18.2051618
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        971,
-        '1st',
-        32.084041,
-        34.887762
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        972,
-        'Tomscot',
-        65.5966234,
-        22.118526
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        973,
-        '7th',
-        -5.178204,
-        -40.6695522
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        974,
-        'Steensland',
-        -4.5585849,
-        105.4068079
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        975,
-        'Cascade',
-        -7.2030729,
-        112.0237903
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        976,
-        'Emmet',
-        38.504559,
-        125.4946236
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        977,
-        'Eagle Crest',
-        39.0800897,
-        -8.7620955
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        978,
-        'Laurel',
-        51.5649604,
-        32.9549585
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        979,
-        'Porter',
-        39.2762158,
-        -9.2806096
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        980,
-        'Bluestem',
-        56.5155642,
-        64.631671
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        981,
-        'Sachtjen',
-        51.5136143,
-        -0.1365486
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        982,
-        'Stoughton',
-        58.3594831,
-        11.2594186
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        983,
-        'Corben',
-        29.6970749,
-        106.6160052
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        984,
-        'Debs',
-        47.9487196,
-        0.1940537
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        985,
-        'Homewood',
-        29.202542,
-        121.931606
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        986,
-        'Butterfield',
-        38.4832851,
-        -9.1025502
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        987,
-        'Carberry',
-        6.7990626,
-        -1.0849592
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        988,
-        'Laurel',
-        54.4808396,
-        37.6941279
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        989,
-        'Esch',
-        -15.8142935,
-        -42.227378
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        990,
-        'Sachs',
-        38.408587,
-        28.385948
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        991,
-        'Bluestem',
-        19.4458447,
-        -99.1497664
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        992,
-        'Garrison',
-        -14.6737265,
-        -39.465738
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        993,
-        'Porter',
-        -7.7736143,
-        110.3643938
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        994,
-        'Canary',
-        15.8800584,
-        108.3380469
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        995,
-        'Muir',
-        52.3181885,
-        16.1282552
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        996,
-        'Bay',
-        -26.8193949,
-        -65.1435685
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        997,
-        'Summerview',
-        9.5920992,
-        123.4719247
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        998,
-        'Blackbird',
-        41.5423083,
-        44.4725636
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        999,
-        'Weeping Birch',
-        29.46392,
-        110.4714
-    );
-
-insert into
-    locations (id, name, latitude, longitude)
-values (
-        1000,
-        'Orin',
-        29.2188245,
-        80.4993857
-    );
+		
+insert into locations (name, latitude, longitude) values ('Schmedeman', 43.57344, 44.06134);
+insert into locations (name, latitude, longitude) values ('Clarendon', -7.6387228, 111.0460407);
+insert into locations (name, latitude, longitude) values ('Vermont', 32.060497, 34.873121);
+insert into locations (name, latitude, longitude) values ('Village Green', 31.9339724, 118.670339);
+insert into locations (name, latitude, longitude) values ('Merrick', 39.982718, 117.078294);
+insert into locations (name, latitude, longitude) values ('Mcbride', -21.5354088, -49.8569266);
+insert into locations (name, latitude, longitude) values ('Pierstorff', 39.952319, 119.598195);
+insert into locations (name, latitude, longitude) values ('3rd', 14.6874444, 120.9638841);
+insert into locations (name, latitude, longitude) values ('Cambridge', 12.2387911, 109.1967488);
+insert into locations (name, latitude, longitude) values ('Waywood', 51.7059957, 53.0515402);
+insert into locations (name, latitude, longitude) values ('Graedel', 23.028301, 115.84573);
+insert into locations (name, latitude, longitude) values ('Ronald Regan', -8.4105413, 115.6141801);
+insert into locations (name, latitude, longitude) values ('Briar Crest', 38.4198489, 140.9986577);
+insert into locations (name, latitude, longitude) values ('Jenna', 31.3270103, 121.5909344);
+insert into locations (name, latitude, longitude) values ('Moland', 25.833531, 116.357581);
+insert into locations (name, latitude, longitude) values ('Service', 39.1457699, -9.234085);
+insert into locations (name, latitude, longitude) values ('Clove', 3.2572094, -77.2864879);
+insert into locations (name, latitude, longitude) values ('Jay', 23.404165, 113.220218);
+insert into locations (name, latitude, longitude) values ('Cordelia', 9.5608923, -73.3384471);
+insert into locations (name, latitude, longitude) values ('Clyde Gallagher', 4.9764526, -75.6695834);
+insert into locations (name, latitude, longitude) values ('Shelley', 40.5895257, 46.3271378);
+insert into locations (name, latitude, longitude) values ('Maywood', 43.0429124, 1.9038837);
+insert into locations (name, latitude, longitude) values ('Independence', 60.5686508, 26.4733066);
+insert into locations (name, latitude, longitude) values ('Hanson', 18.0120542, -76.7984918);
+insert into locations (name, latitude, longitude) values ('Bartelt', 6.1071457, -3.8553507);
+insert into locations (name, latitude, longitude) values ('Butternut', 34.15599, 64.78566);
+insert into locations (name, latitude, longitude) values ('Ramsey', 53.3004898, -6.2634596);
+insert into locations (name, latitude, longitude) values ('Novick', 12.0675239, 123.7223625);
+insert into locations (name, latitude, longitude) values ('Everett', 41.43254, 46.9646);
+insert into locations (name, latitude, longitude) values ('Haas', 33.540837, 35.5862413);
+insert into locations (name, latitude, longitude) values ('Pankratz', 46.689671, 126.11386);
+insert into locations (name, latitude, longitude) values ('Ruskin', 10.701232, -61.5471829);
+insert into locations (name, latitude, longitude) values ('Fallview', 43.4554, 43.5944);
+insert into locations (name, latitude, longitude) values ('Little Fleur', 64.7633191, 21.0631481);
+insert into locations (name, latitude, longitude) values ('Surrey', 50.7338713, 16.0708309);
+insert into locations (name, latitude, longitude) values ('Mcbride', 44.666926, 19.2469148);
+insert into locations (name, latitude, longitude) values ('Harbort', 48.75018, -78.99962);
+insert into locations (name, latitude, longitude) values ('Loomis', 23.883531, 110.666614);
+insert into locations (name, latitude, longitude) values ('Washington', 29.9338311, -9.351354);
+insert into locations (name, latitude, longitude) values ('Evergreen', 45.1974486, 38.579875);
+insert into locations (name, latitude, longitude) values ('Basil', 65.9360924, 23.9406659);
+insert into locations (name, latitude, longitude) values ('Arapahoe', 30.080174, -94.1265562);
+insert into locations (name, latitude, longitude) values ('Fieldstone', 57.5788645, 12.1079009);
+insert into locations (name, latitude, longitude) values ('Boyd', 10.4309602, -85.0966591);
+insert into locations (name, latitude, longitude) values ('Carey', -14.5154982, -39.299866);
+insert into locations (name, latitude, longitude) values ('Susan', -7.0543824, 108.7690065);
+insert into locations (name, latitude, longitude) values ('Mitchell', 50.0804826, 16.9364145);
+insert into locations (name, latitude, longitude) values ('Harbort', 41.777702, 84.252156);
+insert into locations (name, latitude, longitude) values ('Leroy', 40.7886028, -81.4251512);
+insert into locations (name, latitude, longitude) values ('Anhalt', -10.9884148, 26.7378585);
+insert into locations (name, latitude, longitude) values ('Bellgrove', -7.6044869, 109.5068254);
+insert into locations (name, latitude, longitude) values ('Sullivan', -34.5128294, -58.5125025);
+insert into locations (name, latitude, longitude) values ('Vermont', 45.4592577, 75.2050312);
+insert into locations (name, latitude, longitude) values ('Maple', -23.2218772, -44.7235076);
+insert into locations (name, latitude, longitude) values ('Green', 36.858819, 119.398525);
+insert into locations (name, latitude, longitude) values ('Calypso', 4.7524091, -55.0272904);
+insert into locations (name, latitude, longitude) values ('Vidon', 9.1505664, -11.3913379);
+insert into locations (name, latitude, longitude) values ('Comanche', 19.7235862, 99.7165007);
+insert into locations (name, latitude, longitude) values ('3rd', 41.150505, 44.8399721);
+insert into locations (name, latitude, longitude) values ('Prairieview', 30.66974, 120.79411);
+insert into locations (name, latitude, longitude) values ('Washington', 30.574474, 103.923651);
+insert into locations (name, latitude, longitude) values ('Birchwood', 47.111918, 87.486703);
+insert into locations (name, latitude, longitude) values ('Hanover', 37.2406676, 55.1596592);
+insert into locations (name, latitude, longitude) values ('Sheridan', 34.58, -4.73);
+insert into locations (name, latitude, longitude) values ('Straubel', 57.7314161, 12.0625459);
+insert into locations (name, latitude, longitude) values ('Loftsgordon', 50.7819156, 15.231474);
+insert into locations (name, latitude, longitude) values ('Canary', 30.210884, 66.048012);
+insert into locations (name, latitude, longitude) values ('Judy', -12.7822122, 45.2582086);
+insert into locations (name, latitude, longitude) values ('Saint Paul', 43.1235823, 132.392159);
+insert into locations (name, latitude, longitude) values ('Golden Leaf', 35.863652, 71.789345);
+insert into locations (name, latitude, longitude) values ('Loomis', -6.7974263, 111.1682495);
+insert into locations (name, latitude, longitude) values ('Calypso', -20.1337772, -67.4891345);
+insert into locations (name, latitude, longitude) values ('Lillian', 61.5656107, 25.1814985);
+insert into locations (name, latitude, longitude) values ('Browning', 10.4132061, -66.8052202);
+insert into locations (name, latitude, longitude) values ('Prairie Rose', 46.6975886, 15.90981);
+insert into locations (name, latitude, longitude) values ('Summer Ridge', -36.9060236, 174.8893277);
+insert into locations (name, latitude, longitude) values ('Clove', 65.836924, 13.1934011);
+insert into locations (name, latitude, longitude) values ('Prairieview', 25.456453, 103.240546);
+insert into locations (name, latitude, longitude) values ('Oak', 30.049992, 121.159547);
+insert into locations (name, latitude, longitude) values ('Kingsford', 49.8387221, 35.6206178);
+insert into locations (name, latitude, longitude) values ('Lighthouse Bay', -20.6121259, -51.8287077);
+insert into locations (name, latitude, longitude) values ('Kipling', 28.945479, 120.379714);
+insert into locations (name, latitude, longitude) values ('6th', -26.459383, 27.8604472);
+insert into locations (name, latitude, longitude) values ('Mosinee', -6.8300602, 110.8374104);
+insert into locations (name, latitude, longitude) values ('Myrtle', 45.9028599, 3.95435);
+insert into locations (name, latitude, longitude) values ('Kenwood', 59.0490896, 60.5974703);
+insert into locations (name, latitude, longitude) values ('Holmberg', 46.5993244, -1.1457859);
+insert into locations (name, latitude, longitude) values ('Loeprich', 31.93592, 35.005);
+insert into locations (name, latitude, longitude) values ('Eliot', 42.1214396, -80.0852698);
+insert into locations (name, latitude, longitude) values ('Aberg', 14.9614897, 120.8355408);
+insert into locations (name, latitude, longitude) values ('Veith', 53.3223974, -6.374155);
+insert into locations (name, latitude, longitude) values ('Bowman', 20.9334638, 106.8414374);
+insert into locations (name, latitude, longitude) values ('Colorado', -22.5905906, -46.5282973);
+insert into locations (name, latitude, longitude) values ('Northwestern', 31.070643, 113.943274);
+insert into locations (name, latitude, longitude) values ('Mcguire', 7.8014452, -0.0513246);
+insert into locations (name, latitude, longitude) values ('Holy Cross', 6.1244023, 100.3674801);
+insert into locations (name, latitude, longitude) values ('Sutherland', 44.0562486, 17.4498275);
+insert into locations (name, latitude, longitude) values ('Muir', 62.4144225, 17.2870792);
+insert into locations (name, latitude, longitude) values ('Linden', -22.250939, -45.928795);
+insert into locations (name, latitude, longitude) values ('Maywood', 53.76686, -112.80195);
+insert into locations (name, latitude, longitude) values ('Surrey', 40.0336591, 52.9759299);
+insert into locations (name, latitude, longitude) values ('Mayfield', 37.074461, 22.430264);
+insert into locations (name, latitude, longitude) values ('Green', 9.9165452, -84.1014639);
+insert into locations (name, latitude, longitude) values ('Dixon', -21.4382195, -65.7193442);
+insert into locations (name, latitude, longitude) values ('8th', 49.2176397, 17.6970599);
+insert into locations (name, latitude, longitude) values ('Stone Corner', 35.498159, 106.330646);
+insert into locations (name, latitude, longitude) values ('Katie', 34.799583, 137.3616256);
+insert into locations (name, latitude, longitude) values ('David', 41.4174956, 128.2035269);
+insert into locations (name, latitude, longitude) values ('Arizona', 27.415632, 118.347831);
+insert into locations (name, latitude, longitude) values ('Welch', 51.8407513, 21.4105498);
+insert into locations (name, latitude, longitude) values ('Haas', 23.2654395, 113.3547602);
+insert into locations (name, latitude, longitude) values ('Hudson', 9.9772764, 125.2748944);
+insert into locations (name, latitude, longitude) values ('Manufacturers', 29.780431, 121.411468);
+insert into locations (name, latitude, longitude) values ('Roxbury', 30.1102634, 71.4201301);
+insert into locations (name, latitude, longitude) values ('Laurel', 49.7709133, 17.1214423);
+insert into locations (name, latitude, longitude) values ('Logan', 37.9429182, -77.3469946);
+insert into locations (name, latitude, longitude) values ('Colorado', -33.8880642, 18.9591376);
+insert into locations (name, latitude, longitude) values ('Gateway', -8.6595, 120.7129);
+insert into locations (name, latitude, longitude) values ('Anzinger', 22.5364306, -80.9055645);
+insert into locations (name, latitude, longitude) values ('Stuart', 7.0427956, -73.1054544);
+insert into locations (name, latitude, longitude) values ('Packers', 47.0200861, -68.1434963);
+insert into locations (name, latitude, longitude) values ('Forest Dale', 16.5409974, 121.563879);
+insert into locations (name, latitude, longitude) values ('Bashford', -8.3031696, 112.1132142);
+insert into locations (name, latitude, longitude) values ('Garrison', 27.336513, 118.083288);
+insert into locations (name, latitude, longitude) values ('Leroy', 22.585397, 113.38492);
+insert into locations (name, latitude, longitude) values ('Kingsford', 36.3245823, 138.271632);
+insert into locations (name, latitude, longitude) values ('Iowa', 37.3745927, 97.3688438);
+insert into locations (name, latitude, longitude) values ('Mitchell', 38.984289, 118.498758);
+insert into locations (name, latitude, longitude) values ('East', 44.7800716, 44.1646857);
+insert into locations (name, latitude, longitude) values ('Oneill', -8.0685658, 111.6809778);
+insert into locations (name, latitude, longitude) values ('Graedel', 54.2825201, 30.990449);
+insert into locations (name, latitude, longitude) values ('Manitowish', -6.7757862, 111.7465609);
+insert into locations (name, latitude, longitude) values ('Lakewood Gardens', 49.7709142, 18.8445446);
+insert into locations (name, latitude, longitude) values ('Dwight', 50.52546, 42.6645851);
+insert into locations (name, latitude, longitude) values ('South', -7.0051453, 110.4381254);
+insert into locations (name, latitude, longitude) values ('Lyons', -8.0299, 113.8526);
+insert into locations (name, latitude, longitude) values ('Buell', 38.416663, 112.734174);
+insert into locations (name, latitude, longitude) values ('Weeping Birch', -27.3302999, -55.0519913);
+insert into locations (name, latitude, longitude) values ('Sugar', 41.1741505, -8.6691157);
+insert into locations (name, latitude, longitude) values ('Stoughton', 40.2982408, 70.419388);
+insert into locations (name, latitude, longitude) values ('Mariners Cove', 38.0324108, 114.6843819);
+insert into locations (name, latitude, longitude) values ('Walton', -21.0794915, -45.0933497);
+insert into locations (name, latitude, longitude) values ('Little Fleur', 37.1432384, 9.7846002);
+insert into locations (name, latitude, longitude) values ('Schmedeman', -2.5421083, -44.3290923);
+insert into locations (name, latitude, longitude) values ('Shasta', 41.3349436, -6.9646803);
+insert into locations (name, latitude, longitude) values ('Susan', 30.145729, 120.589457);
+insert into locations (name, latitude, longitude) values ('Hermina', 40.4878138, -7.8661822);
+insert into locations (name, latitude, longitude) values ('Sutteridge', 55.1065781, 55.3377071);
+insert into locations (name, latitude, longitude) values ('Cascade', 26.885704, 120.005147);
+insert into locations (name, latitude, longitude) values ('Buena Vista', -26.7162431, 23.9253941);
+insert into locations (name, latitude, longitude) values ('Dennis', 44.5591908, 18.6917335);
+insert into locations (name, latitude, longitude) values ('Hintze', -8.1637036, -79.002342);
+insert into locations (name, latitude, longitude) values ('Village Green', 40.1912987, 44.384146);
+insert into locations (name, latitude, longitude) values ('Fair Oaks', 25.63273, 118.980277);
+insert into locations (name, latitude, longitude) values ('Grover', 21.752396, 111.617849);
+insert into locations (name, latitude, longitude) values ('Beilfuss', -6.9338, 113.9812);
+insert into locations (name, latitude, longitude) values ('Jenna', -6.9828037, 109.5568089);
+insert into locations (name, latitude, longitude) values ('Center', 33.613239, -4.191742);
+insert into locations (name, latitude, longitude) values ('Sutherland', 59.5785947, 9.2442028);
+insert into locations (name, latitude, longitude) values ('East', 23.021478, 113.121435);
+insert into locations (name, latitude, longitude) values ('Dovetail', 51.8851246, -0.4111111);
+insert into locations (name, latitude, longitude) values ('Susan', 16.0045432, 101.207047);
+insert into locations (name, latitude, longitude) values ('Ronald Regan', 43.15, -77.63);
+insert into locations (name, latitude, longitude) values ('Johnson', -3.2898398, 29.6499162);
+insert into locations (name, latitude, longitude) values ('Nevada', 52.4639426, 13.3728893);
+insert into locations (name, latitude, longitude) values ('Lakeland', -0.2842862, 20.8850949);
+insert into locations (name, latitude, longitude) values ('Chive', 39.711179, -8.6689187);
+insert into locations (name, latitude, longitude) values ('Lyons', -12.5905158, 13.416501);
+insert into locations (name, latitude, longitude) values ('Dapin', 52.99166, 17.4884299);
+insert into locations (name, latitude, longitude) values ('Mallard', 30.383617, 109.702514);
+insert into locations (name, latitude, longitude) values ('Montana', 46.3989378, 15.8176288);
+insert into locations (name, latitude, longitude) values ('Kedzie', 32.809026, 110.112629);
+insert into locations (name, latitude, longitude) values ('Fuller', 38.707638, -9.197834);
+insert into locations (name, latitude, longitude) values ('Badeau', 42.13896, 21.7247643);
+insert into locations (name, latitude, longitude) values ('Autumn Leaf', 22.7292345, -81.2917971);
+insert into locations (name, latitude, longitude) values ('Dovetail', -24.6131407, 25.8731407);
+insert into locations (name, latitude, longitude) values ('Manitowish', 26.0765362, 119.2807519);
+insert into locations (name, latitude, longitude) values ('Buhler', 53.9735591, -8.2969737);
+insert into locations (name, latitude, longitude) values ('Bartillon', 18.2604623, -70.1473203);
+insert into locations (name, latitude, longitude) values ('Homewood', -18.6248754, -43.058341);
+insert into locations (name, latitude, longitude) values ('Blue Bill Park', -6.939897, 106.9506175);
+insert into locations (name, latitude, longitude) values ('Kim', 45.902561, 115.358704);
+insert into locations (name, latitude, longitude) values ('Moose', 28.599774, 90.204816);
+insert into locations (name, latitude, longitude) values ('Veith', 19.4458447, -99.1497664);
+insert into locations (name, latitude, longitude) values ('Prairie Rose', 38.0572295, 23.8336016);
+insert into locations (name, latitude, longitude) values ('Laurel', 53.2169534, 45.1560169);
+insert into locations (name, latitude, longitude) values ('Loftsgordon', 46.1114451, 48.0744772);
+insert into locations (name, latitude, longitude) values ('Portage', 59.324761, 18.2730402);
+insert into locations (name, latitude, longitude) values ('Logan', 41.8535089, 12.5556193);
+insert into locations (name, latitude, longitude) values ('Merry', 38.1788095, 15.4976181);
+insert into locations (name, latitude, longitude) values ('Thierer', 4.4721794, -75.7255192);
+insert into locations (name, latitude, longitude) values ('5th', 23.106401, 113.459749);
+insert into locations (name, latitude, longitude) values ('Sherman', 9.4811641, -66.9719947);
+insert into locations (name, latitude, longitude) values ('La Follette', 39.0729188, 22.5513331);
+insert into locations (name, latitude, longitude) values ('Alpine', 48.8466523, 2.2582125);
+insert into locations (name, latitude, longitude) values ('Mitchell', 42.4349809, 18.7066398);
+insert into locations (name, latitude, longitude) values ('Truax', 17.2375, 99.818333);
+insert into locations (name, latitude, longitude) values ('Mitchell', 41.6548062, -8.4907289);
+insert into locations (name, latitude, longitude) values ('Erie', 32.0005346, -80.9760556);
+insert into locations (name, latitude, longitude) values ('Pepper Wood', 20.2993311, 106.3581527);
+insert into locations (name, latitude, longitude) values ('1st', 34.329605, 108.708991);
+insert into locations (name, latitude, longitude) values ('Eastlawn', -6.427987, 110.9561);
+insert into locations (name, latitude, longitude) values ('Crownhardt', -3.7580937, 102.7942473);
+insert into locations (name, latitude, longitude) values ('Novick', 22.7843398, 114.0486176);
+insert into locations (name, latitude, longitude) values ('Jenifer', 39.8236368, 20.7283764);
+insert into locations (name, latitude, longitude) values ('New Castle', 4.3202706, 21.1861342);
+insert into locations (name, latitude, longitude) values ('Iowa', 14.783886, -88.7782541);
+insert into locations (name, latitude, longitude) values ('Sommers', 29.9120904, 120.6367578);
+insert into locations (name, latitude, longitude) values ('West', 14.5716986, 121.026941);
+insert into locations (name, latitude, longitude) values ('Brentwood', 23.028301, 115.84573);
+insert into locations (name, latitude, longitude) values ('Ruskin', 58.4633132, 36.4116086);
+insert into locations (name, latitude, longitude) values ('Daystar', 13.4326204, -87.4554432);
+insert into locations (name, latitude, longitude) values ('Parkside', 47.5206407, -52.8076818);
+insert into locations (name, latitude, longitude) values ('Thierer', 35.0018174, 33.8913539);
+insert into locations (name, latitude, longitude) values ('Coolidge', 22.806457, 114.073302);
+insert into locations (name, latitude, longitude) values ('Hayes', 66.5299478, 66.6127258);
+insert into locations (name, latitude, longitude) values ('Service', 23.723418, 114.255942);
+insert into locations (name, latitude, longitude) values ('Stang', 31.922974, 118.663681);
+insert into locations (name, latitude, longitude) values ('Pennsylvania', -8.2271785, 124.6773561);
+insert into locations (name, latitude, longitude) values ('Messerschmidt', -6.7751995, 111.3515736);
+insert into locations (name, latitude, longitude) values ('Debra', 37.888248, 116.537067);
+insert into locations (name, latitude, longitude) values ('Muir', -15.712819, 28.5797981);
+insert into locations (name, latitude, longitude) values ('Stoughton', 28.782431, 113.122376);
+insert into locations (name, latitude, longitude) values ('Schlimgen', -2.4204637, -79.3437394);
+insert into locations (name, latitude, longitude) values ('Maple', 34.5824996, -2.5098914);
+insert into locations (name, latitude, longitude) values ('Ruskin', -6.8392705, 111.245751);
+insert into locations (name, latitude, longitude) values ('Grasskamp', 52.4506032, 19.6362734);
+insert into locations (name, latitude, longitude) values ('Raven', 51.923707, -8.489012);
+insert into locations (name, latitude, longitude) values ('Lyons', 9.9004655, 13.0544185);
+insert into locations (name, latitude, longitude) values ('Miller', 52.1837429, 34.0412051);
+insert into locations (name, latitude, longitude) values ('Merrick', 32.0681759, 23.941751);
+insert into locations (name, latitude, longitude) values ('Russell', 28.5776106, 81.6254283);
+insert into locations (name, latitude, longitude) values ('Burrows', 19.4849192, -72.483507);
+insert into locations (name, latitude, longitude) values ('Boyd', 46.6666667, 93.25);
+insert into locations (name, latitude, longitude) values ('Canary', 6.129226, 102.236216);
+insert into locations (name, latitude, longitude) values ('Daystar', 26.647932, 107.917448);
+insert into locations (name, latitude, longitude) values ('Spohn', 40.6236334, -8.503294);
+insert into locations (name, latitude, longitude) values ('Fisk', 40.7773081, -74.0186386);
+insert into locations (name, latitude, longitude) values ('East', 9.80278, 118.69861);
+insert into locations (name, latitude, longitude) values ('Upham', -20.9977174, 27.3352044);
+insert into locations (name, latitude, longitude) values ('Messerschmidt', 54.2109904, -8.5070436);
+insert into locations (name, latitude, longitude) values ('Express', 40.8106238, 69.2341133);
+insert into locations (name, latitude, longitude) values ('Londonderry', 7.75778, 124.73361);
+insert into locations (name, latitude, longitude) values ('Columbus', 28.976995, 116.762907);
+insert into locations (name, latitude, longitude) values ('Jenifer', -34.5446946, -58.486757);
+insert into locations (name, latitude, longitude) values ('Summit', 40.7084699, 72.8781322);
+insert into locations (name, latitude, longitude) values ('Summerview', 49.6302491, 20.6635214);
+insert into locations (name, latitude, longitude) values ('Park Meadow', 56.4441479, 52.2293876);
+insert into locations (name, latitude, longitude) values ('Oriole', 23.092389, 113.657419);
+insert into locations (name, latitude, longitude) values ('Sutteridge', 31.068706, 121.713538);
+insert into locations (name, latitude, longitude) values ('Caliangt', 41.6188726, -8.3575438);
+insert into locations (name, latitude, longitude) values ('Westport', 53.340959, 83.777896);
+insert into locations (name, latitude, longitude) values ('Namekagon', 51.8925608, 21.4872815);
+insert into locations (name, latitude, longitude) values ('Hanover', 27.857569, 109.81701);
+insert into locations (name, latitude, longitude) values ('Maywood', -7.8013074, 111.6541483);
+insert into locations (name, latitude, longitude) values ('Washington', 39.3046388, 23.2207655);
+insert into locations (name, latitude, longitude) values ('Dwight', 29.714699, 118.337521);
+insert into locations (name, latitude, longitude) values ('Mallard', -7.0773485, 108.4602464);
+insert into locations (name, latitude, longitude) values ('Sutteridge', 30.081941, 120.495065);
+insert into locations (name, latitude, longitude) values ('Shoshone', -7.8426533, 110.3859913);
+insert into locations (name, latitude, longitude) values ('Lillian', 14.7044701, 121.0519495);
+insert into locations (name, latitude, longitude) values ('Thierer', 38.6663765, 20.6018254);
+insert into locations (name, latitude, longitude) values ('Eagan', 38.6784499, 139.8352678);
+insert into locations (name, latitude, longitude) values ('Melrose', -7.2760371, 107.6925674);
+insert into locations (name, latitude, longitude) values ('Forest', 54.3171885, 10.0477345);
+insert into locations (name, latitude, longitude) values ('Manley', 23.9211737, -106.8915948);
+insert into locations (name, latitude, longitude) values ('Claremont', -29.362503, -51.08671);
+insert into locations (name, latitude, longitude) values ('Crownhardt', -6.4933318, 106.8809319);
+insert into locations (name, latitude, longitude) values ('Onsgard', 40.0534636, 44.5135399);
+insert into locations (name, latitude, longitude) values ('Algoma', 43.2625974, 23.6556259);
+insert into locations (name, latitude, longitude) values ('Carberry', -30.5148445, -53.4832383);
+insert into locations (name, latitude, longitude) values ('Anthes', 14.5629719, -89.349044);
+insert into locations (name, latitude, longitude) values ('Paget', 59.3938804, 15.8607653);
+insert into locations (name, latitude, longitude) values ('John Wall', 4.4308445, 8.941094);
+insert into locations (name, latitude, longitude) values ('Stang', 16.6143698, -7.2598913);
+insert into locations (name, latitude, longitude) values ('Grayhawk', 4.8666221, 95.4201377);
+insert into locations (name, latitude, longitude) values ('Stone Corner', 11.1054336, 42.3704744);
+insert into locations (name, latitude, longitude) values ('Columbus', 16.8047297, 99.1013498);
+insert into locations (name, latitude, longitude) values ('Arkansas', 39.8236368, 20.7283764);
+insert into locations (name, latitude, longitude) values ('4th', 65.6136813, 22.1762379);
+insert into locations (name, latitude, longitude) values ('Sloan', 13.8801742, 121.2125126);
+insert into locations (name, latitude, longitude) values ('Farmco', 46.8117208, 33.4901963);
+insert into locations (name, latitude, longitude) values ('Farmco', 41.4841391, -8.5483245);
+insert into locations (name, latitude, longitude) values ('Spaight', 37.9512175, 23.4910916);
+insert into locations (name, latitude, longitude) values ('Barby', 29.960349, 121.724208);
+insert into locations (name, latitude, longitude) values ('Monica', 21.547821, 107.971826);
+insert into locations (name, latitude, longitude) values ('Lighthouse Bay', 42.0160888, 24.8652145);
+insert into locations (name, latitude, longitude) values ('Washington', -6.2382699, 106.9755726);
+insert into locations (name, latitude, longitude) values ('Portage', 41.2, -111.98);
+insert into locations (name, latitude, longitude) values ('Mesta', 41.603085, 46.638308);
+insert into locations (name, latitude, longitude) values ('Truax', 41.0606685, 24.0475546);
+insert into locations (name, latitude, longitude) values ('Merrick', 30.507299, -8.615482);
+insert into locations (name, latitude, longitude) values ('Moland', 45.090227, 16.0189989);
+insert into locations (name, latitude, longitude) values ('International', 41.0832289, -7.8225565);
+insert into locations (name, latitude, longitude) values ('Gina', 45.260412, 131.124079);
+insert into locations (name, latitude, longitude) values ('Raven', -7.4212735, 107.172085);
+insert into locations (name, latitude, longitude) values ('Pleasure', 53.0319419, 18.9576575);
+insert into locations (name, latitude, longitude) values ('Delaware', 50.2867981, 16.0442852);
+insert into locations (name, latitude, longitude) values ('Green Ridge', 10.7745965, 106.6679542);
+insert into locations (name, latitude, longitude) values ('Hoepker', 54.7669, -111.96861);
+insert into locations (name, latitude, longitude) values ('Ilene', 47.082485, 39.3745033);
+insert into locations (name, latitude, longitude) values ('Norway Maple', 7.1402468, 40.7107871);
+insert into locations (name, latitude, longitude) values ('Crowley', 50.5504089, 20.418024);
+insert into locations (name, latitude, longitude) values ('Hooker', 38.0549562, 23.807655);
+insert into locations (name, latitude, longitude) values ('Dixon', 8.874948, 125.660068);
+insert into locations (name, latitude, longitude) values ('Mcguire', -12.3108043, -76.8138804);
+insert into locations (name, latitude, longitude) values ('Macpherson', 15.3376191, -91.0268638);
+insert into locations (name, latitude, longitude) values ('Del Mar', 48.6386409, 15.0253027);
+insert into locations (name, latitude, longitude) values ('Barnett', 49.65841, 21.97678);
+insert into locations (name, latitude, longitude) values ('Pearson', -7.5450262, 111.6556388);
+insert into locations (name, latitude, longitude) values ('Carey', -6.3904294, 107.1733193);
+insert into locations (name, latitude, longitude) values ('Novick', 9.453835, 125.574534);
+insert into locations (name, latitude, longitude) values ('Northview', 14.5968528, 121.0670507);
+insert into locations (name, latitude, longitude) values ('Blue Bill Park', -12.0582305, -77.1053673);
+insert into locations (name, latitude, longitude) values ('Montana', -12.09985, -77.0197479);
+insert into locations (name, latitude, longitude) values ('Scott', 16.0768029, 120.4222511);
+insert into locations (name, latitude, longitude) values ('High Crossing', 16.1329692, 119.8370843);
+insert into locations (name, latitude, longitude) values ('Ilene', -5.8913185, -37.3399768);
+insert into locations (name, latitude, longitude) values ('Heath', 39.2671237, -84.5195974);
+insert into locations (name, latitude, longitude) values ('Dahle', 4.5120691, -75.2245693);
+insert into locations (name, latitude, longitude) values ('Anzinger', 37.1994932, 126.8311887);
+insert into locations (name, latitude, longitude) values ('Forest', 32.244032, 35.064616);
+insert into locations (name, latitude, longitude) values ('North', 52.0264758, 21.8107747);
+insert into locations (name, latitude, longitude) values ('Fallview', 61.3220623, 16.3984929);
+insert into locations (name, latitude, longitude) values ('Trailsway', 48.9475246, 2.4888946);
+insert into locations (name, latitude, longitude) values ('Del Sol', 27.950753, 109.592921);
+insert into locations (name, latitude, longitude) values ('Vernon', 50.4251949, 19.300593);
+insert into locations (name, latitude, longitude) values ('Forest', 30.574474, 103.923651);
+insert into locations (name, latitude, longitude) values ('Vera', 50.4244054, 14.3899392);
+insert into locations (name, latitude, longitude) values ('Waxwing', 26.480043, 113.778639);
+insert into locations (name, latitude, longitude) values ('Hauk', -8.3027766, 113.5222556);
+insert into locations (name, latitude, longitude) values ('Ramsey', 34.1540161, 36.7442377);
+insert into locations (name, latitude, longitude) values ('Oak Valley', 50.9666323, 15.0249601);
+insert into locations (name, latitude, longitude) values ('Pennsylvania', -9.9678, 124.536223);
+insert into locations (name, latitude, longitude) values ('Surrey', 25.119815, 118.916309);
+insert into locations (name, latitude, longitude) values ('Mosinee', 28.520684, 112.140063);
+insert into locations (name, latitude, longitude) values ('Esker', 7.9645367, 81.0063855);
+insert into locations (name, latitude, longitude) values ('Bayside', 43.0709333, -89.3274391);
+insert into locations (name, latitude, longitude) values ('Knutson', 32.890479, 115.814504);
+insert into locations (name, latitude, longitude) values ('Lighthouse Bay', 39.6975916, 125.2066831);
+insert into locations (name, latitude, longitude) values ('Cordelia', 34.26645, 108.960747);
+insert into locations (name, latitude, longitude) values ('Anhalt', 7.1796355, -2.1008486);
+insert into locations (name, latitude, longitude) values ('Manitowish', 39.1935336, -7.2866952);
+insert into locations (name, latitude, longitude) values ('Jenna', 23.044969, 113.398429);
+insert into locations (name, latitude, longitude) values ('Mariners Cove', 19.9034294, 100.0359661);
+insert into locations (name, latitude, longitude) values ('Hazelcrest', 38.9022136, -9.0443293);
+insert into locations (name, latitude, longitude) values ('Northland', -21.9718816, 16.9063491);
+insert into locations (name, latitude, longitude) values ('Village Green', 67.8256178, 20.3351033);
+insert into locations (name, latitude, longitude) values ('Luster', -7.9954685, 110.9417222);
+insert into locations (name, latitude, longitude) values ('Waubesa', -10.5852663, -75.4053367);
+insert into locations (name, latitude, longitude) values ('Saint Paul', 14.8751623, -86.1828047);
+insert into locations (name, latitude, longitude) values ('Gina', -0.9676533, -80.7089101);
+insert into locations (name, latitude, longitude) values ('Oneill', -6.9812818, 112.87907);
+insert into locations (name, latitude, longitude) values ('Garrison', -29.4169973, 24.7380385);
+insert into locations (name, latitude, longitude) values ('Green Ridge', 7.3530394, 124.2236352);
+insert into locations (name, latitude, longitude) values ('Bobwhite', 31.778022, 104.745823);
+insert into locations (name, latitude, longitude) values ('Bunting', -30.1647807, -53.5608275);
+insert into locations (name, latitude, longitude) values ('Dwight', -6.8380623, 111.9701346);
+insert into locations (name, latitude, longitude) values ('Heffernan', 32.644902, 120.353259);
+insert into locations (name, latitude, longitude) values ('Eastlawn', 44.5943255, 0.057855);
+insert into locations (name, latitude, longitude) values ('Warbler', -8.1574988, 114.3014572);
+insert into locations (name, latitude, longitude) values ('Jenifer', 26.694208, 115.939083);
+insert into locations (name, latitude, longitude) values ('Northport', 41.455932, 118.106868);
+insert into locations (name, latitude, longitude) values ('Monument', 53.3004898, -6.2634596);
+insert into locations (name, latitude, longitude) values ('Express', 40.8381534, 44.4226861);
+insert into locations (name, latitude, longitude) values ('Granby', -7.4797342, 110.2176941);
+insert into locations (name, latitude, longitude) values ('Esch', -7.6179234, 109.1850317);
+insert into locations (name, latitude, longitude) values ('Gale', 44.9844262, 15.8238674);
+insert into locations (name, latitude, longitude) values ('Vahlen', 53.48661, 106.0622305);
+insert into locations (name, latitude, longitude) values ('Scott', 6.3802946, 116.4246476);
+insert into locations (name, latitude, longitude) values ('Grim', 29.987954, 112.115401);
+insert into locations (name, latitude, longitude) values ('Ridgeview', -6.916443, 39.2246882);
+insert into locations (name, latitude, longitude) values ('Katie', 11.8633332, 3.3842473);
+insert into locations (name, latitude, longitude) values ('Northfield', 17.06034, 122.01514);
+insert into locations (name, latitude, longitude) values ('Iowa', 40.9557367, -8.5885858);
+insert into locations (name, latitude, longitude) values ('Mallory', 47.4936583, 21.66245);
+insert into locations (name, latitude, longitude) values ('Spohn', -7.4209758, 108.439474);
+insert into locations (name, latitude, longitude) values ('Fairfield', 8.956049, 125.596794);
+insert into locations (name, latitude, longitude) values ('Basil', 18.9331158, -70.4059336);
+insert into locations (name, latitude, longitude) values ('Haas', 49.8501369, 21.894173);
+insert into locations (name, latitude, longitude) values ('Butternut', 55.6842625, 37.8548295);
+insert into locations (name, latitude, longitude) values ('Oxford', 31.306136, 120.6240412);
+insert into locations (name, latitude, longitude) values ('Shelley', 49.5931724, 17.1260751);
+insert into locations (name, latitude, longitude) values ('Haas', 40.2367283, 44.6917527);
+insert into locations (name, latitude, longitude) values ('Comanche', 57.3132065, 32.0880477);
+insert into locations (name, latitude, longitude) values ('Warrior', 52.5168356, 6.1433403);
+insert into locations (name, latitude, longitude) values ('Homewood', 50.0296342, 16.6005976);
+insert into locations (name, latitude, longitude) values ('Memorial', 24.77848, 110.496593);
+insert into locations (name, latitude, longitude) values ('Clarendon', 14.1386669, -90.0034929);
+insert into locations (name, latitude, longitude) values ('Cherokee', 43.6347968, 23.3663219);
+insert into locations (name, latitude, longitude) values ('Portage', 45.4969452, 10.2740428);
+insert into locations (name, latitude, longitude) values ('Lakewood', 16.01787, 43.59647);
+insert into locations (name, latitude, longitude) values ('Merchant', 0.4919195, 42.778437);
+insert into locations (name, latitude, longitude) values ('Logan', 49.5962241, 19.1332531);
+insert into locations (name, latitude, longitude) values ('Forster', 33.200333, 120.50085);
+insert into locations (name, latitude, longitude) values ('Magdeline', -6.3270611, 106.1169299);
+insert into locations (name, latitude, longitude) values ('Calypso', 31.2303904, 121.4737021);
+insert into locations (name, latitude, longitude) values ('Stang', -9.5179699, 119.0983524);
+insert into locations (name, latitude, longitude) values ('Golf View', 34.7671945, 119.0790302);
+insert into locations (name, latitude, longitude) values ('Warner', 41.5212778, -8.1366948);
+insert into locations (name, latitude, longitude) values ('Kensington', 39.964054, 116.714967);
+insert into locations (name, latitude, longitude) values ('Warrior', 50.72372, -121.28207);
+insert into locations (name, latitude, longitude) values ('Maple', -32.9321855, -60.7222767);
+insert into locations (name, latitude, longitude) values ('Center', -10.10712, -76.601273);
+insert into locations (name, latitude, longitude) values ('Sutherland', 51.5742615, 5.0840393);
+insert into locations (name, latitude, longitude) values ('Union', 49.954706, 15.0305859);
+insert into locations (name, latitude, longitude) values ('Lillian', 51.65991, 84.3244979);
+insert into locations (name, latitude, longitude) values ('Rigney', 9.2209606, -74.4028287);
+insert into locations (name, latitude, longitude) values ('Manitowish', -12.5896471, -43.0971625);
+insert into locations (name, latitude, longitude) values ('Chive', 32.993106, 97.008784);
+insert into locations (name, latitude, longitude) values ('Prairie Rose', 43.6953508, 7.2559678);
+insert into locations (name, latitude, longitude) values ('Hagan', 13.302428, 123.4403955);
+insert into locations (name, latitude, longitude) values ('Superior', 16.5245838, 121.5194596);
+insert into locations (name, latitude, longitude) values ('Westport', 38.7157106, -9.3069187);
+insert into locations (name, latitude, longitude) values ('Weeping Birch', 14.5508865, 121.0075554);
+insert into locations (name, latitude, longitude) values ('Ohio', -22.3595631, -47.3853435);
+insert into locations (name, latitude, longitude) values ('Jana', 40.2442315, 44.6342209);
+insert into locations (name, latitude, longitude) values ('Harbort', 38.197478, 114.335324);
+insert into locations (name, latitude, longitude) values ('Anhalt', 41.4242264, -8.6722459);
+insert into locations (name, latitude, longitude) values ('Florence', 31.5909061, 120.4927974);
+insert into locations (name, latitude, longitude) values ('Columbus', 32.623453, 35.316723);
+insert into locations (name, latitude, longitude) values ('Nelson', 16.8047297, 99.1013498);
+insert into locations (name, latitude, longitude) values ('Harper', -8.1265731, 111.813634);
+insert into locations (name, latitude, longitude) values ('Judy', -5.85, 105.75);
+insert into locations (name, latitude, longitude) values ('Rutledge', 50.13332, -101.66766);
+insert into locations (name, latitude, longitude) values ('Thierer', -7.2929068, 107.2666396);
+insert into locations (name, latitude, longitude) values ('Artisan', 1.0673379, 99.734444);
+insert into locations (name, latitude, longitude) values ('Division', 15.2256074, 100.6599899);
+insert into locations (name, latitude, longitude) values ('Oriole', 36.661223, 136.9664664);
+insert into locations (name, latitude, longitude) values ('Dryden', 6.5243793, 3.3792057);
+insert into locations (name, latitude, longitude) values ('Mcguire', 19.3579802, -99.0806088);
+insert into locations (name, latitude, longitude) values ('Milwaukee', 40.7284708, -73.7830184);
+insert into locations (name, latitude, longitude) values ('Beilfuss', 13.81967, 100.0601382);
+insert into locations (name, latitude, longitude) values ('Bunker Hill', -31.5327537, 27.7080133);
+insert into locations (name, latitude, longitude) values ('Carey', -7.0970638, 107.5771444);
+insert into locations (name, latitude, longitude) values ('Elgar', 57.6727414, -2.955445);
+insert into locations (name, latitude, longitude) values ('Donald', 23.8906995, 89.1099368);
+insert into locations (name, latitude, longitude) values ('Stang', 13.874099, 120.972283);
+insert into locations (name, latitude, longitude) values ('Columbus', 50.5740977, 22.1623714);
+insert into locations (name, latitude, longitude) values ('Loomis', 48.4703688, 24.2784263);
+insert into locations (name, latitude, longitude) values ('Clove', 14.1386669, -90.0034929);
+insert into locations (name, latitude, longitude) values ('Boyd', -8.6981, 122.247);
+insert into locations (name, latitude, longitude) values ('Trailsway', -10.5102117, -37.0530033);
+insert into locations (name, latitude, longitude) values ('La Follette', 54.78036, -127.17428);
+insert into locations (name, latitude, longitude) values ('Magdeline', -28.9361187, -49.4923013);
+insert into locations (name, latitude, longitude) values ('Superior', -8.1145, 115.1021);
+insert into locations (name, latitude, longitude) values ('Schlimgen', 3.7232292, 96.8418);
+insert into locations (name, latitude, longitude) values ('American Ash', 14.647587, -89.728235);
+insert into locations (name, latitude, longitude) values ('Judy', 50.8294542, 19.2859852);
+insert into locations (name, latitude, longitude) values ('Garrison', 48.80189, 105.924);
+insert into locations (name, latitude, longitude) values ('Atwood', 59.0069977, 54.6643867);
+insert into locations (name, latitude, longitude) values ('Maryland', 29.086221, 119.571633);
+insert into locations (name, latitude, longitude) values ('Dawn', 38.914003, 121.614682);
+insert into locations (name, latitude, longitude) values ('Twin Pines', 40.3111887, -3.7371617);
+insert into locations (name, latitude, longitude) values ('Duke', -2.6896767, 141.2998457);
+insert into locations (name, latitude, longitude) values ('Moland', 30.456361, 119.117626);
+insert into locations (name, latitude, longitude) values ('Rusk', 59.93387, 10.7238762);
+insert into locations (name, latitude, longitude) values ('Londonderry', -6.8939065, 109.6386363);
+insert into locations (name, latitude, longitude) values ('Vernon', -6.6710208, 106.8266873);
+insert into locations (name, latitude, longitude) values ('Raven', -3.3226005, 119.8245506);
+insert into locations (name, latitude, longitude) values ('Fairfield', 34.26645, 108.960747);
+insert into locations (name, latitude, longitude) values ('Buhler', -9.6635623, 124.0251538);
+insert into locations (name, latitude, longitude) values ('Armistice', 51.1490898, 108.9418923);
+insert into locations (name, latitude, longitude) values ('Surrey', 38.05106, 114.463347);
+insert into locations (name, latitude, longitude) values ('Anthes', -15.3745452, 167.8138553);
+insert into locations (name, latitude, longitude) values ('Mayfield', 55.8502008, 32.2633061);
+insert into locations (name, latitude, longitude) values ('Lakewood', 16.9741689, 7.986535);
+insert into locations (name, latitude, longitude) values ('Mandrake', -14.0845123, -73.5903296);
+insert into locations (name, latitude, longitude) values ('Shasta', 37.2425649, 111.8568586);
+insert into locations (name, latitude, longitude) values ('Buell', -17.857298, -42.8583915);
+insert into locations (name, latitude, longitude) values ('Mayer', 11.4864025, -69.3503307);
+insert into locations (name, latitude, longitude) values ('Saint Paul', 53.378253, -6.5853664);
+insert into locations (name, latitude, longitude) values ('Main', 52.1173637, 47.2076504);
+insert into locations (name, latitude, longitude) values ('Bunting', 44.119138, 41.472429);
+insert into locations (name, latitude, longitude) values ('Mendota', 31.491169, 120.31191);
+insert into locations (name, latitude, longitude) values ('Morning', 56.3072493, 38.701054);
+insert into locations (name, latitude, longitude) values ('Badeau', 12.7145722, 124.0576816);
+insert into locations (name, latitude, longitude) values ('Cambridge', -7.2739902, 108.1250791);
+insert into locations (name, latitude, longitude) values ('Holy Cross', -34.5054318, -58.5144579);
+insert into locations (name, latitude, longitude) values ('Hintze', 43.7441795, 2.511999);
+insert into locations (name, latitude, longitude) values ('Vernon', 55.893363, 37.601984);
+insert into locations (name, latitude, longitude) values ('Loomis', 14.6181466, 120.9818412);
+insert into locations (name, latitude, longitude) values ('Becker', -33.93274, 151.188577);
+insert into locations (name, latitude, longitude) values ('Truax', 59.4051316, 13.5451563);
+insert into locations (name, latitude, longitude) values ('Darwin', 33.8787981, 10.850791);
+insert into locations (name, latitude, longitude) values ('Superior', 41.2371977, -8.1638851);
+insert into locations (name, latitude, longitude) values ('Colorado', 35.38808, 36.13439);
+insert into locations (name, latitude, longitude) values ('Mayfield', 12.5640276, 123.7304111);
+insert into locations (name, latitude, longitude) values ('Service', 38.4784282, -9.1007778);
+insert into locations (name, latitude, longitude) values ('Shelley', -7.2527403, 107.8774664);
+insert into locations (name, latitude, longitude) values ('Annamark', 14.6760848, 120.9873093);
+insert into locations (name, latitude, longitude) values ('Badeau', 30.1321408, 31.1366715);
+insert into locations (name, latitude, longitude) values ('Fulton', 43.4945737, 5.8978018);
+insert into locations (name, latitude, longitude) values ('Pepper Wood', 18.50831, 109.277378);
+insert into locations (name, latitude, longitude) values ('7th', 14.91441, 120.894496);
+insert into locations (name, latitude, longitude) values ('Elka', 34.6816856, 126.9069278);
+insert into locations (name, latitude, longitude) values ('Huxley', -5.9329071, 105.9997125);
+insert into locations (name, latitude, longitude) values ('Grayhawk', 58.745918, 57.6870269);
+insert into locations (name, latitude, longitude) values ('Lotheville', 29.367984, 111.177234);
+insert into locations (name, latitude, longitude) values ('Esker', 49.0965676, -117.71173);
+insert into locations (name, latitude, longitude) values ('Kensington', 13.4833399, 106.9801346);
+insert into locations (name, latitude, longitude) values ('Birchwood', 38.6037983, -9.1672878);
+insert into locations (name, latitude, longitude) values ('Ridgeview', 38.1245942, 139.7374194);
+insert into locations (name, latitude, longitude) values ('Comanche', 13.7850134, 100.4959857);
+insert into locations (name, latitude, longitude) values ('Sachs', 45.9015821, 13.8803513);
+insert into locations (name, latitude, longitude) values ('Loomis', -25.586431, -49.4052251);
+insert into locations (name, latitude, longitude) values ('1st', 30.2733296, 120.1672735);
+insert into locations (name, latitude, longitude) values ('Rieder', 10.8239425, 122.505277);
+insert into locations (name, latitude, longitude) values ('Anthes', 8.8469761, 7.0605998);
+insert into locations (name, latitude, longitude) values ('Melody', 49.5186415, 17.9462874);
+insert into locations (name, latitude, longitude) values ('Cottonwood', 26.648393, 110.153093);
+insert into locations (name, latitude, longitude) values ('Doe Crossing', 12.5179287, -69.9624781);
+insert into locations (name, latitude, longitude) values ('Scoville', 36.041695, 14.220356);
+insert into locations (name, latitude, longitude) values ('Blue Bill Park', -1.509435, 101.060699);
+insert into locations (name, latitude, longitude) values ('Evergreen', 44.7735327, 65.5544515);
+insert into locations (name, latitude, longitude) values ('Hoard', 59.132661, 12.930107);
+insert into locations (name, latitude, longitude) values ('Armistice', 49.1409438, 14.3459973);
+insert into locations (name, latitude, longitude) values ('Ronald Regan', 18.8104433, -71.2236939);
+insert into locations (name, latitude, longitude) values ('Maple', 4.6740235, 12.3750266);
+insert into locations (name, latitude, longitude) values ('Old Gate', -14.9186136, 13.5321234);
+insert into locations (name, latitude, longitude) values ('Oxford', 66.870387, 32.3919624);
+insert into locations (name, latitude, longitude) values ('Derek', 29.514498, 110.840021);
+insert into locations (name, latitude, longitude) values ('Anderson', 64.00189, 44.44513);
+insert into locations (name, latitude, longitude) values ('Stoughton', 54.0632737, -128.6369607);
+insert into locations (name, latitude, longitude) values ('Lukken', -3.701499, -40.3496894);
+insert into locations (name, latitude, longitude) values ('Ludington', -8.614365, 120.466499);
+insert into locations (name, latitude, longitude) values ('Artisan', -7.4580728, 109.21829);
+insert into locations (name, latitude, longitude) values ('Chive', 51.6715177, 35.4505878);
+insert into locations (name, latitude, longitude) values ('Golden Leaf', 36.8064948, 10.1815316);
+insert into locations (name, latitude, longitude) values ('Lakewood', 32.81236, 35.258613);
+insert into locations (name, latitude, longitude) values ('Gateway', 50.2671255, 12.8970938);
+insert into locations (name, latitude, longitude) values ('Pepper Wood', 24.7660178, 90.2561365);
+insert into locations (name, latitude, longitude) values ('Shoshone', -7.2929068, 107.2666396);
+insert into locations (name, latitude, longitude) values ('Sheridan', 57.7244811, 12.9309989);
+insert into locations (name, latitude, longitude) values ('Dayton', 26.312444, 99.850365);
+insert into locations (name, latitude, longitude) values ('Melvin', -37.9707308, -57.6258993);
+insert into locations (name, latitude, longitude) values ('Corben', 13.2063104, -16.3037052);
+insert into locations (name, latitude, longitude) values ('Ludington', 45.295075, 130.969333);
+insert into locations (name, latitude, longitude) values ('Southridge', 20.4170831, 104.04787);
+insert into locations (name, latitude, longitude) values ('Glacier Hill', 1.7145909, 127.9678652);
+insert into locations (name, latitude, longitude) values ('Anderson', 19.543266, 109.103413);
+insert into locations (name, latitude, longitude) values ('Weeping Birch', -22.0157824, -47.8847321);
+insert into locations (name, latitude, longitude) values ('Amoth', -36.9120178, 174.8007417);
+insert into locations (name, latitude, longitude) values ('Kim', 3.7015971, 8.9100475);
+insert into locations (name, latitude, longitude) values ('Montana', 48.7192002, 32.6770961);
+insert into locations (name, latitude, longitude) values ('Westerfield', 52.4127967, 17.9186809);
+insert into locations (name, latitude, longitude) values ('Continental', 36.902846, 116.331293);
+insert into locations (name, latitude, longitude) values ('Independence', 26.2285161, 50.5860497);
+insert into locations (name, latitude, longitude) values ('Rusk', 22.983121, 112.9973583);
+insert into locations (name, latitude, longitude) values ('Rutledge', 14.7044701, 121.0519495);
+insert into locations (name, latitude, longitude) values ('Hintze', 44.0150814, 114.9755481);
+insert into locations (name, latitude, longitude) values ('Green Ridge', 40.104785, 117.116756);
+insert into locations (name, latitude, longitude) values ('West', -7.6557879, 108.3979331);
+insert into locations (name, latitude, longitude) values ('Elka', -22.384597, -41.7828793);
+insert into locations (name, latitude, longitude) values ('Barnett', 41.0084382, 70.074132);
+insert into locations (name, latitude, longitude) values ('Killdeer', 30.350192, 120.222909);
+insert into locations (name, latitude, longitude) values ('Sachtjen', 28.357764, 121.143873);
+insert into locations (name, latitude, longitude) values ('Westridge', -7.6897944, -78.4418001);
+insert into locations (name, latitude, longitude) values ('Washington', 50.34349, 17.99097);
+insert into locations (name, latitude, longitude) values ('Di Loreto', 39.7012988, -8.784267);
+insert into locations (name, latitude, longitude) values ('Manitowish', -47.7375833, -65.896638);
+insert into locations (name, latitude, longitude) values ('Pennsylvania', 59.4380021, 17.8170502);
+insert into locations (name, latitude, longitude) values ('Ryan', 52.5175, 25.8429);
+insert into locations (name, latitude, longitude) values ('Novick', 0.565435, 108.9272);
+insert into locations (name, latitude, longitude) values ('Kingsford', 25.941708, 119.560304);
+insert into locations (name, latitude, longitude) values ('Melody', -7.57656, -40.4976324);
+insert into locations (name, latitude, longitude) values ('Russell', 31.919897, 120.085146);
+insert into locations (name, latitude, longitude) values ('Kingsford', 22.9702067, -82.3858672);
+insert into locations (name, latitude, longitude) values ('Mendota', 13.3587946, 121.1711629);
+insert into locations (name, latitude, longitude) values ('Leroy', -6.6758708, -79.032016);
+insert into locations (name, latitude, longitude) values ('Quincy', 40.6268947, -7.337931);
+insert into locations (name, latitude, longitude) values ('Mcguire', 41.191548, 19.626265);
+insert into locations (name, latitude, longitude) values ('Shopko', 30.605585, 91.862132);
+insert into locations (name, latitude, longitude) values ('7th', 22.0897108, -78.6228504);
+insert into locations (name, latitude, longitude) values ('Quincy', 15.2525945, 44.0270562);
+insert into locations (name, latitude, longitude) values ('Longview', 24.390595, 114.522393);
+insert into locations (name, latitude, longitude) values ('Ridge Oak', 35.95, -84.02);
+insert into locations (name, latitude, longitude) values ('Mayfield', 7.7849087, 2.1990763);
+insert into locations (name, latitude, longitude) values ('Bonner', 29.763892, 121.513271);
+insert into locations (name, latitude, longitude) values ('Stone Corner', 14.7342524, 121.0702642);
+insert into locations (name, latitude, longitude) values ('Lunder', 33.9516114, -118.3875775);
+insert into locations (name, latitude, longitude) values ('Northland', 53.2458822, 46.256124);
+insert into locations (name, latitude, longitude) values ('Golden Leaf', -6.6889038, 107.6185727);
+insert into locations (name, latitude, longitude) values ('Autumn Leaf', 63.1507161, 23.1069244);
+insert into locations (name, latitude, longitude) values ('Shelley', 16.4504042, 102.6402895);
+insert into locations (name, latitude, longitude) values ('Pepper Wood', 53.2622714, 17.2557665);
+insert into locations (name, latitude, longitude) values ('Graceland', 54.4823669, 17.486283);
+insert into locations (name, latitude, longitude) values ('Karstens', 42.741005, 123.355701);
+insert into locations (name, latitude, longitude) values ('Macpherson', 37.515114, 103.575676);
+insert into locations (name, latitude, longitude) values ('John Wall', 28.541342, 98.633013);
+insert into locations (name, latitude, longitude) values ('Esch', 25.87886, 119.545653);
+insert into locations (name, latitude, longitude) values ('Golf', 54.2331, -125.7533);
+insert into locations (name, latitude, longitude) values ('Dorton', -20.0879862, -44.5789542);
+insert into locations (name, latitude, longitude) values ('Vidon', -7.1765167, -47.2923893);
+insert into locations (name, latitude, longitude) values ('Moulton', 49.0096906, 2.5479245);
+insert into locations (name, latitude, longitude) values ('Sunfield', -5.1119324, -39.6043575);
+insert into locations (name, latitude, longitude) values ('Norway Maple', 56.2039328, 24.7570093);
+insert into locations (name, latitude, longitude) values ('Manley', -27.4249796, 30.8190797);
+insert into locations (name, latitude, longitude) values ('Autumn Leaf', 50.4145342, 23.2170296);
+insert into locations (name, latitude, longitude) values ('Canary', 38.3741418, 23.1060007);
+insert into locations (name, latitude, longitude) values ('6th', -13.683333, 24.8);
+insert into locations (name, latitude, longitude) values ('Clyde Gallagher', 40.094835, 113.249246);
+insert into locations (name, latitude, longitude) values ('Dakota', -1.2607218, 116.1832068);
+insert into locations (name, latitude, longitude) values ('Michigan', -6.3761027, 106.5849256);
+insert into locations (name, latitude, longitude) values ('Sunfield', 53.8458953, 19.6034448);
+insert into locations (name, latitude, longitude) values ('Fairfield', 12.8775114, 10.4565159);
+insert into locations (name, latitude, longitude) values ('Washington', 41.5660291, -8.6268918);
+insert into locations (name, latitude, longitude) values ('Johnson', 6.6888595, -57.9190961);
+insert into locations (name, latitude, longitude) values ('Village', 48.0486753, 38.45053);
+insert into locations (name, latitude, longitude) values ('Washington', -7.0062, 112.0295);
+insert into locations (name, latitude, longitude) values ('Lighthouse Bay', 52.695844, 62.5884412);
+insert into locations (name, latitude, longitude) values ('Oxford', 47.6479788, 36.164764);
+insert into locations (name, latitude, longitude) values ('Mesta', 67.0610032, 27.3157403);
+insert into locations (name, latitude, longitude) values ('Reindahl', 14.7040142, 121.0697978);
+insert into locations (name, latitude, longitude) values ('Hollow Ridge', 46.9874505, 3.1506645);
+insert into locations (name, latitude, longitude) values ('Northridge', 37.9578061, 22.8039689);
+insert into locations (name, latitude, longitude) values ('Arapahoe', 55.859897, 13.6699417);
+insert into locations (name, latitude, longitude) values ('Vernon', 29.3738721, 71.6934843);
+insert into locations (name, latitude, longitude) values ('Ohio', 6.6172697, 101.4284143);
+insert into locations (name, latitude, longitude) values ('Washington', 64.3018789, 19.6203523);
+insert into locations (name, latitude, longitude) values ('Morning', 43.1654615, 69.9222782);
+insert into locations (name, latitude, longitude) values ('Huxley', 15.2784628, -87.5847613);
+insert into locations (name, latitude, longitude) values ('Fair Oaks', 14.5801157, 101.003522);
+insert into locations (name, latitude, longitude) values ('Blue Bill Park', 13.5215952, 102.1714454);
+insert into locations (name, latitude, longitude) values ('Di Loreto', -8.3026125, 35.2917432);
+insert into locations (name, latitude, longitude) values ('Birchwood', 56.0017, 55.928);
+insert into locations (name, latitude, longitude) values ('Springview', 35.8439572, 136.1916906);
+insert into locations (name, latitude, longitude) values ('Morningstar', 39.3809141, 22.7451966);
+insert into locations (name, latitude, longitude) values ('Kropf', 35.2019368, 24.996407);
+insert into locations (name, latitude, longitude) values ('Bunker Hill', 25.4052165, 55.5136433);
+insert into locations (name, latitude, longitude) values ('Kensington', 24.4908935, 118.1202121);
+insert into locations (name, latitude, longitude) values ('Hoard', 32.305011, 34.911731);
+insert into locations (name, latitude, longitude) values ('Washington', 8.2841689, -7.681943);
+insert into locations (name, latitude, longitude) values ('Eliot', 29.746561, 111.778931);
+insert into locations (name, latitude, longitude) values ('Brickson Park', 26.170171, 118.190467);
+insert into locations (name, latitude, longitude) values ('Arapahoe', 45.7631589, 106.2650297);
+insert into locations (name, latitude, longitude) values ('Gerald', 46.60873, -81.20763);
+insert into locations (name, latitude, longitude) values ('Farmco', 35.490701, 112.851831);
+insert into locations (name, latitude, longitude) values ('Shelley', -5.283333, -76.283333);
+insert into locations (name, latitude, longitude) values ('Rieder', -0.134137, 130.9485906);
+insert into locations (name, latitude, longitude) values ('Ryan', -6.8926501, 112.0103765);
+insert into locations (name, latitude, longitude) values ('Anthes', 30.674362, 107.803911);
+insert into locations (name, latitude, longitude) values ('Portage', 47.6479788, 36.164764);
+insert into locations (name, latitude, longitude) values ('Stang', 30.694308, 104.012972);
+insert into locations (name, latitude, longitude) values ('Rieder', -6.2434343, 106.5618306);
+insert into locations (name, latitude, longitude) values ('Luster', -12.8010669, -76.5257007);
+insert into locations (name, latitude, longitude) values ('Acker', 48.09967, 122.667783);
+insert into locations (name, latitude, longitude) values ('Forster', 42.9856238, 25.6162991);
+insert into locations (name, latitude, longitude) values ('Moland', -6.1103661, 106.1639749);
+insert into locations (name, latitude, longitude) values ('Lakeland', 9.2214675, 122.8845373);
+insert into locations (name, latitude, longitude) values ('Summerview', 49.1532539, 16.8764982);
+insert into locations (name, latitude, longitude) values ('Pearson', 32.809026, 110.112629);
+insert into locations (name, latitude, longitude) values ('Sullivan', -19.9454604, -43.4876311);
+insert into locations (name, latitude, longitude) values ('Stuart', -3.9131671, 103.7752634);
+insert into locations (name, latitude, longitude) values ('Shasta', 38.9003669, -77.0351137);
+insert into locations (name, latitude, longitude) values ('Walton', 35.12751, 36.21444);
+insert into locations (name, latitude, longitude) values ('Redwing', 41.226934, -8.3815652);
+insert into locations (name, latitude, longitude) values ('Golf View', 46.8146055, 29.4715186);
+insert into locations (name, latitude, longitude) values ('Canary', 12.1151051, 12.8256275);
+insert into locations (name, latitude, longitude) values ('Bashford', 49.854824, 36.2090012);
+insert into locations (name, latitude, longitude) values ('Longview', -6.5823, 105.8508);
+insert into locations (name, latitude, longitude) values ('Hanson', -8.3010912, 112.1489829);
+insert into locations (name, latitude, longitude) values ('Hudson', 50.4072694, 18.7082571);
+insert into locations (name, latitude, longitude) values ('David', 16.1091703, 120.0885626);
+insert into locations (name, latitude, longitude) values ('Valley Edge', 49.9164727, 18.1627822);
+insert into locations (name, latitude, longitude) values ('Larry', 23.396201, 103.364905);
+insert into locations (name, latitude, longitude) values ('Bay', 51.55683, 105.1262);
+insert into locations (name, latitude, longitude) values ('Veith', 41.6429311, -8.1464077);
+insert into locations (name, latitude, longitude) values ('Fairview', -9.2623446, -77.6929792);
+insert into locations (name, latitude, longitude) values ('Knutson', 22.9155908, 91.8580145);
+insert into locations (name, latitude, longitude) values ('Kim', 19.6612408, -99.0795719);
+insert into locations (name, latitude, longitude) values ('Hallows', -7.2299572, -39.4122984);
+insert into locations (name, latitude, longitude) values ('Loeprich', 59.8435756, 10.8173713);
+insert into locations (name, latitude, longitude) values ('Grayhawk', 8.4297819, -82.8317486);
+insert into locations (name, latitude, longitude) values ('Fallview', -7.3440911, 107.9917034);
+insert into locations (name, latitude, longitude) values ('Redwing', 56.5953599, 24.1989562);
+insert into locations (name, latitude, longitude) values ('Sauthoff', -6.3037726, 106.9010694);
+insert into locations (name, latitude, longitude) values ('Park Meadow', 35.2299999, -89.9);
+insert into locations (name, latitude, longitude) values ('Monica', 49.8180882, 22.4761571);
+insert into locations (name, latitude, longitude) values ('Forest', 17.9453521, -76.4534165);
+insert into locations (name, latitude, longitude) values ('Center', 49.879152, 15.9316109);
+insert into locations (name, latitude, longitude) values ('Rigney', 50.480431, 121.682569);
+insert into locations (name, latitude, longitude) values ('Warner', 42.1214396, -80.0852698);
+insert into locations (name, latitude, longitude) values ('Burning Wood', 14.9156704, 120.5705167);
+insert into locations (name, latitude, longitude) values ('Gina', 9.3257165, -73.8654295);
+insert into locations (name, latitude, longitude) values ('Knutson', 57.2702863, 16.4538847);
+insert into locations (name, latitude, longitude) values ('Sage', 25.6765837, -100.2602364);
+insert into locations (name, latitude, longitude) values ('Dunning', 33.23203, 35.75572);
+insert into locations (name, latitude, longitude) values ('Bayside', -15.18339, -72.858932);
+insert into locations (name, latitude, longitude) values ('Brickson Park', 39.042852, 117.318781);
+insert into locations (name, latitude, longitude) values ('Bonner', -33.5339107, -58.2177722);
+insert into locations (name, latitude, longitude) values ('Heath', 58.6680061, 50.0352255);
+insert into locations (name, latitude, longitude) values ('Eastlawn', 49.4928119, -117.2948343);
+insert into locations (name, latitude, longitude) values ('Stoughton', 32.990664, 112.528308);
+insert into locations (name, latitude, longitude) values ('Golf View', 38.0473429, 22.6834064);
+insert into locations (name, latitude, longitude) values ('Dixon', 52.2795871, 104.3213093);
+insert into locations (name, latitude, longitude) values ('Huxley', 36.973912, 121.793839);
+insert into locations (name, latitude, longitude) values ('Lillian', -31.730594, -65.006098);
+insert into locations (name, latitude, longitude) values ('Corben', 16.043877, 120.131429);
+insert into locations (name, latitude, longitude) values ('Paget', 60.3278292, 54.3033879);
+insert into locations (name, latitude, longitude) values ('2nd', 41.0623236, -8.5828152);
+insert into locations (name, latitude, longitude) values ('Summer Ridge', 55.7558852, 37.8775383);
+insert into locations (name, latitude, longitude) values ('Oneill', 41.1036618, 20.0226337);
+insert into locations (name, latitude, longitude) values ('Drewry', 49.0496835, 33.2284693);
+insert into locations (name, latitude, longitude) values ('Carey', 50.0695752, 20.7162493);
+insert into locations (name, latitude, longitude) values ('Springs', 48.749354, 2.480322);
+insert into locations (name, latitude, longitude) values ('Dixon', 33.6682421, -117.7659237);
+insert into locations (name, latitude, longitude) values ('Blackbird', 13.7768017, 100.5593109);
+insert into locations (name, latitude, longitude) values ('Spohn', -24.2530306, -49.7106625);
+insert into locations (name, latitude, longitude) values ('Declaration', 29.926771, 121.615088);
+insert into locations (name, latitude, longitude) values ('Johnson', -6.9198702, 113.8227792);
+insert into locations (name, latitude, longitude) values ('Columbus', 67.286069, 14.418571);
+insert into locations (name, latitude, longitude) values ('2nd', 14.1929998, 121.1317352);
+insert into locations (name, latitude, longitude) values ('Killdeer', -11.8769261, 43.4054565);
+insert into locations (name, latitude, longitude) values ('Huxley', -7.37242, 110.6973469);
+insert into locations (name, latitude, longitude) values ('Declaration', -7.8815605, -34.8277651);
+insert into locations (name, latitude, longitude) values ('Rutledge', 38.36, -81.65);
+insert into locations (name, latitude, longitude) values ('Dunning', 57.3937216, 21.5647066);
+insert into locations (name, latitude, longitude) values ('Lyons', 48.9001898, 24.8519696);
+insert into locations (name, latitude, longitude) values ('Carberry', 44.5597467, 16.7228288);
+insert into locations (name, latitude, longitude) values ('Rieder', -8.5300312, 116.1950214);
+insert into locations (name, latitude, longitude) values ('Alpine', 43.0827206, 46.8282768);
+insert into locations (name, latitude, longitude) values ('Quincy', 10.3043903, 104.6354631);
+insert into locations (name, latitude, longitude) values ('Dennis', 32.663268, 96.609741);
+insert into locations (name, latitude, longitude) values ('Veith', -8.4636, 120.5128);
+insert into locations (name, latitude, longitude) values ('4th', 45.7031383, 14.5961993);
+insert into locations (name, latitude, longitude) values ('Bartillon', -40.7632504, -71.638725);
+insert into locations (name, latitude, longitude) values ('Reindahl', 48.8066526, 2.4725036);
+insert into locations (name, latitude, longitude) values ('Washington', 27.1574303, 117.3011656);
+insert into locations (name, latitude, longitude) values ('Lakeland', -4.8654138, -43.3619983);
+insert into locations (name, latitude, longitude) values ('Lillian', 12.7145722, 124.0576816);
+insert into locations (name, latitude, longitude) values ('Michigan', 51.6521236, 39.0891762);
+insert into locations (name, latitude, longitude) values ('Steensland', -25.7394696, 28.3508883);
+insert into locations (name, latitude, longitude) values ('Granby', 50.5878419, 13.8083154);
+insert into locations (name, latitude, longitude) values ('Sutteridge', 14.6062786, 121.1140816);
+insert into locations (name, latitude, longitude) values ('Mesta', 13.9253961, 100.4133581);
+insert into locations (name, latitude, longitude) values ('Haas', 28.848613, 116.868597);
+insert into locations (name, latitude, longitude) values ('Holy Cross', 42.901533, 125.136451);
+insert into locations (name, latitude, longitude) values ('Waywood', 50.6930818, 3.1845673);
+insert into locations (name, latitude, longitude) values ('Autumn Leaf', 19.3579802, -99.0806088);
+insert into locations (name, latitude, longitude) values ('Kinsman', -14.4760253, -70.6365505);
+insert into locations (name, latitude, longitude) values ('Straubel', 36.995188, 110.613177);
+insert into locations (name, latitude, longitude) values ('Ramsey', 38.9181719, 139.8446841);
+insert into locations (name, latitude, longitude) values ('Lukken', 32.46392, 35.21938);
+insert into locations (name, latitude, longitude) values ('Maryland', -34.6802091, -58.4747517);
+insert into locations (name, latitude, longitude) values ('Carberry', -17.28891, -70.04363);
+insert into locations (name, latitude, longitude) values ('Fuller', 31.678719, 35.241822);
+insert into locations (name, latitude, longitude) values ('Rutledge', 29.020827, 110.637506);
+insert into locations (name, latitude, longitude) values ('Algoma', 42.0328151, -8.6450785);
+insert into locations (name, latitude, longitude) values ('Hudson', 44.9870496, 38.994454);
+insert into locations (name, latitude, longitude) values ('Coolidge', 14.5324564, -91.512542);
+insert into locations (name, latitude, longitude) values ('Lighthouse Bay', 49.8370072, 13.5783393);
+insert into locations (name, latitude, longitude) values ('Carberry', 47.0776249, 28.1792198);
+insert into locations (name, latitude, longitude) values ('Eliot', -27.3782073, -55.9209171);
+insert into locations (name, latitude, longitude) values ('Bluejay', 11.0630379, 17.9324442);
+insert into locations (name, latitude, longitude) values ('Loftsgordon', 34.068191, 113.870916);
+insert into locations (name, latitude, longitude) values ('Coolidge', 31.699849, 121.016122);
+insert into locations (name, latitude, longitude) values ('Loomis', -28.4481029, -65.7905325);
+insert into locations (name, latitude, longitude) values ('Delaware', 46.6473105, 0.813275);
+insert into locations (name, latitude, longitude) values ('Westport', 30.823526, 91.622728);
+insert into locations (name, latitude, longitude) values ('Packers', 57.7618574, 12.1347184);
+insert into locations (name, latitude, longitude) values ('South', -17.9164482, 15.0937378);
+insert into locations (name, latitude, longitude) values ('Mallory', 56.3452088, 44.1385479);
+insert into locations (name, latitude, longitude) values ('Columbus', 58.222051, 11.9182903);
+insert into locations (name, latitude, longitude) values ('Mosinee', -7.337694, 109.9094336);
+insert into locations (name, latitude, longitude) values ('Continental', 6.856106, 79.917758);
+insert into locations (name, latitude, longitude) values ('Brown', 59.5245273, 13.223691);
+insert into locations (name, latitude, longitude) values ('Huxley', 13.4343708, 123.6857559);
+insert into locations (name, latitude, longitude) values ('Reinke', 39.6720868, -84.0960056);
+insert into locations (name, latitude, longitude) values ('3rd', 15.8785099, 120.3186429);
+insert into locations (name, latitude, longitude) values ('Washington', 9.6365101, 123.8536209);
+insert into locations (name, latitude, longitude) values ('Upham', 54.2207765, 18.9709477);
+insert into locations (name, latitude, longitude) values ('Fremont', 43.61812, 118.05545);
+insert into locations (name, latitude, longitude) values ('Summit', 35.370505, 103.708354);
+insert into locations (name, latitude, longitude) values ('Leroy', 16.8211238, 100.2658516);
+insert into locations (name, latitude, longitude) values ('Old Gate', 59.391109, 17.8752481);
+insert into locations (name, latitude, longitude) values ('Esker', 44.0461726, 16.8557453);
+insert into locations (name, latitude, longitude) values ('Harbort', -24.2298687, -65.1737343);
+insert into locations (name, latitude, longitude) values ('Spohn', 60.1163207, 32.3008149);
+insert into locations (name, latitude, longitude) values ('Dexter', 15.7147233, 120.851094);
+insert into locations (name, latitude, longitude) values ('Northport', 44.165729, 132.7602034);
+insert into locations (name, latitude, longitude) values ('Vernon', 27.632803, 111.793796);
+insert into locations (name, latitude, longitude) values ('Lotheville', 30.9991154, -9.675904);
+insert into locations (name, latitude, longitude) values ('Sutteridge', 47.9795218, 91.634756);
+insert into locations (name, latitude, longitude) values ('Erie', 30.7833, 114.41144);
+insert into locations (name, latitude, longitude) values ('Leroy', 39.221631, 97.971276);
+insert into locations (name, latitude, longitude) values ('Kropf', 52.3533225, 18.7293986);
+insert into locations (name, latitude, longitude) values ('Mariners Cove', -6.6028802, 111.0132542);
+insert into locations (name, latitude, longitude) values ('Arizona', 40.1825437, 44.2538203);
+insert into locations (name, latitude, longitude) values ('Westend', 60.6858505, 15.0446489);
+insert into locations (name, latitude, longitude) values ('Helena', 24.05813, 103.019468);
+insert into locations (name, latitude, longitude) values ('Village Green', 45.536587, 19.150386);
+insert into locations (name, latitude, longitude) values ('Thompson', 0.839501, 100.2880581);
+insert into locations (name, latitude, longitude) values ('Ridgeway', 38.627867, 114.506303);
+insert into locations (name, latitude, longitude) values ('Dayton', 25.3681203, 68.3122196);
+insert into locations (name, latitude, longitude) values ('Macpherson', 48.8693156, 2.3501981);
+insert into locations (name, latitude, longitude) values ('Pearson', 55.21664, -119.43605);
+insert into locations (name, latitude, longitude) values ('Hovde', 33.06748, 107.023323);
+insert into locations (name, latitude, longitude) values ('Grasskamp', 32.21252, 106.230327);
+insert into locations (name, latitude, longitude) values ('Bobwhite', 39.0392193, 125.7625241);
+insert into locations (name, latitude, longitude) values ('Linden', 49.2696303, 98.9929867);
+insert into locations (name, latitude, longitude) values ('Heath', 46.7306768, 29.9803379);
+insert into locations (name, latitude, longitude) values ('Shasta', -7.6275173, 108.8016788);
+insert into locations (name, latitude, longitude) values ('Elka', 31.9566347, 35.8472427);
+insert into locations (name, latitude, longitude) values ('Old Gate', -8.1649, 124.668);
+insert into locations (name, latitude, longitude) values ('Meadow Valley', 33.76, -84.39);
+insert into locations (name, latitude, longitude) values ('Rowland', 43.505478, 18.7772645);
+insert into locations (name, latitude, longitude) values ('Bayside', 23.723418, 114.255942);
+insert into locations (name, latitude, longitude) values ('Spaight', 45.4139794, -75.7103682);
+insert into locations (name, latitude, longitude) values ('Texas', -10.3023, 123.710098);
+insert into locations (name, latitude, longitude) values ('Ramsey', 51.0720479, 16.881153);
+insert into locations (name, latitude, longitude) values ('Elmside', 26.433417, 110.856622);
+insert into locations (name, latitude, longitude) values ('Hallows', 46.1236303, 32.2912714);
+insert into locations (name, latitude, longitude) values ('Sloan', 35.30385, 113.875245);
+insert into locations (name, latitude, longitude) values ('Columbus', 40.88111, 20.18278);
+insert into locations (name, latitude, longitude) values ('Hauk', -12.8272291, -38.4003431);
+insert into locations (name, latitude, longitude) values ('Ohio', -20.4967315, 57.468383);
+insert into locations (name, latitude, longitude) values ('Burrows', 28.782431, 113.122376);
+insert into locations (name, latitude, longitude) values ('Buell', 27.578926, 110.040315);
+insert into locations (name, latitude, longitude) values ('Jackson', -8.2190944, 114.3691416);
+insert into locations (name, latitude, longitude) values ('Toban', 30.39194, 114.894843);
+insert into locations (name, latitude, longitude) values ('Esch', 40.5040992, 21.376499);
+insert into locations (name, latitude, longitude) values ('Calypso', 14.0228518, 100.2151578);
+insert into locations (name, latitude, longitude) values ('Mandrake', 43.1520105, 126.4371385);
+insert into locations (name, latitude, longitude) values ('Melby', 36.9207067, 137.9553704);
+insert into locations (name, latitude, longitude) values ('Autumn Leaf', -17.3013059, 31.3198491);
+insert into locations (name, latitude, longitude) values ('Vahlen', 43.9399539, 42.7376717);
+insert into locations (name, latitude, longitude) values ('Jenna', 50.4734865, 2.9394741);
+insert into locations (name, latitude, longitude) values ('Michigan', -6.9945321, 112.3918934);
+insert into locations (name, latitude, longitude) values ('Messerschmidt', 31.298877, 121.395941);
+insert into locations (name, latitude, longitude) values ('Thompson', -6.9375866, 108.5522531);
+insert into locations (name, latitude, longitude) values ('Sunnyside', 8.417766, 126.207415);
+insert into locations (name, latitude, longitude) values ('Novick', -5.9345929, -79.222328);
+insert into locations (name, latitude, longitude) values ('Cottonwood', 43.525311, 125.664662);
+insert into locations (name, latitude, longitude) values ('Schurz', -0.3688967, 35.286286);
+insert into locations (name, latitude, longitude) values ('Heath', 49.0998215, 17.757483);
+insert into locations (name, latitude, longitude) values ('Esch', 26.015959, 116.602435);
+insert into locations (name, latitude, longitude) values ('6th', 58.1348867, 8.006095);
+insert into locations (name, latitude, longitude) values ('Hayes', 25.9923398, 89.2847251);
+insert into locations (name, latitude, longitude) values ('Nancy', 5.9201411, 125.6500276);
+insert into locations (name, latitude, longitude) values ('Elka', 2.9175611, 101.6821575);
+insert into locations (name, latitude, longitude) values ('Thompson', 22.28616, 89.95882);
+insert into locations (name, latitude, longitude) values ('Ilene', 22.839541, 114.807963);
+insert into locations (name, latitude, longitude) values ('Sachtjen', 38.6754819, 46.1117612);
+insert into locations (name, latitude, longitude) values ('Oxford', 15.8127, 120.4557);
+insert into locations (name, latitude, longitude) values ('Vermont', 22.3825415, -80.847466);
+insert into locations (name, latitude, longitude) values ('Esch', -27.4893816, -58.8495697);
+insert into locations (name, latitude, longitude) values ('Kim', 41.221015, 109.799646);
+insert into locations (name, latitude, longitude) values ('Ilene', 37.2719952, 127.4348221);
+insert into locations (name, latitude, longitude) values ('Hoepker', -6.7353, 111.4931);
+insert into locations (name, latitude, longitude) values ('Fuller', 53.3223974, -6.374155);
+insert into locations (name, latitude, longitude) values ('Scofield', 41.2797561, -7.39548);
+insert into locations (name, latitude, longitude) values ('Glendale', -6.6409658, 106.8030892);
+insert into locations (name, latitude, longitude) values ('Gerald', -8.5734677, 116.3653421);
+insert into locations (name, latitude, longitude) values ('Dixon', 28.901462, 118.511235);
+insert into locations (name, latitude, longitude) values ('Del Sol', 34.4045029, 132.5485088);
+insert into locations (name, latitude, longitude) values ('Algoma', -7.5749752, 110.6317907);
+insert into locations (name, latitude, longitude) values ('Rieder', 48.4242028, 142.0863655);
+insert into locations (name, latitude, longitude) values ('Monica', -9.1472165, -77.7267877);
+insert into locations (name, latitude, longitude) values ('Vidon', 38.404242, 112.746046);
+insert into locations (name, latitude, longitude) values ('Springview', -4.203866, 36.927071);
+insert into locations (name, latitude, longitude) values ('Linden', 31.297414, 121.450653);
+insert into locations (name, latitude, longitude) values ('Maryland', 39.6883601, -8.9606173);
+insert into locations (name, latitude, longitude) values ('Independence', 22.170437, 111.791539);
+insert into locations (name, latitude, longitude) values ('Monica', -18.3714305, -54.6972774);
+insert into locations (name, latitude, longitude) values ('Crowley', -7.2578991, 107.8632023);
+insert into locations (name, latitude, longitude) values ('Boyd', 52.3618688, 21.2897784);
+insert into locations (name, latitude, longitude) values ('Namekagon', 25.58038, 111.947363);
+insert into locations (name, latitude, longitude) values ('Anniversary', -6.9506, 112.9961);
+insert into locations (name, latitude, longitude) values ('Pankratz', 35.888861, 14.437676);
+insert into locations (name, latitude, longitude) values ('Gale', 59.1639426, 9.6358001);
+insert into locations (name, latitude, longitude) values ('Rusk', 35.5770451, 51.4624642);
+insert into locations (name, latitude, longitude) values ('Upham', 40.450839, 44.600998);
+insert into locations (name, latitude, longitude) values ('Randy', -7.3251615, 108.230338);
+insert into locations (name, latitude, longitude) values ('Blackbird', 22.837926, 108.319371);
+insert into locations (name, latitude, longitude) values ('Hintze', -6.2624908, 106.1713267);
+insert into locations (name, latitude, longitude) values ('Walton', 1.1963019, 104.1019324);
+insert into locations (name, latitude, longitude) values ('Pawling', 36.6561848, 40.3675423);
+insert into locations (name, latitude, longitude) values ('New Castle', -23.0552782, -49.623678);
+insert into locations (name, latitude, longitude) values ('Surrey', 13.9734064, 121.6889505);
+insert into locations (name, latitude, longitude) values ('Lillian', -9.5662977, 124.4891278);
+insert into locations (name, latitude, longitude) values ('Vera', 44.903044, -93.2332244);
+insert into locations (name, latitude, longitude) values ('Vera', 32.032275, 118.449305);
+insert into locations (name, latitude, longitude) values ('Holy Cross', -9.6551739, 124.2699432);
+insert into locations (name, latitude, longitude) values ('Blaine', 39.9474817, 116.4689261);
+insert into locations (name, latitude, longitude) values ('Monica', 54.2084536, 72.9614362);
+insert into locations (name, latitude, longitude) values ('Transport', 46.9428639, 4.2998563);
+insert into locations (name, latitude, longitude) values ('Burrows', 13.6343413, 46.0563212);
+insert into locations (name, latitude, longitude) values ('Sachtjen', 38.914003, 121.614682);
+insert into locations (name, latitude, longitude) values ('Grayhawk', 0, 2.8125);
+insert into locations (name, latitude, longitude) values ('Jay', 40.180793, 44.5281754);
+insert into locations (name, latitude, longitude) values ('Memorial', -10.5182, 121.7895);
+insert into locations (name, latitude, longitude) values ('Walton', 35.550111, 112.713515);
+insert into locations (name, latitude, longitude) values ('Corben', 48.7618689, 14.732221);
+insert into locations (name, latitude, longitude) values ('Weeping Birch', -7.5229136, 108.0509743);
+insert into locations (name, latitude, longitude) values ('Southridge', 18.4445307, -69.9316834);
+insert into locations (name, latitude, longitude) values ('Hagan', 9.3191109, -70.6032995);
+insert into locations (name, latitude, longitude) values ('Oak', 42.0256691, 19.547883);
+insert into locations (name, latitude, longitude) values ('Myrtle', 14.5179897, -17.0096553);
+insert into locations (name, latitude, longitude) values ('Pine View', 41.1060534, -7.9642047);
+insert into locations (name, latitude, longitude) values ('Fallview', 29.117096, 110.479191);
+insert into locations (name, latitude, longitude) values ('American', -38.9351182, -68.2320043);
+insert into locations (name, latitude, longitude) values ('Laurel', 43.4880374, -8.2310576);
+insert into locations (name, latitude, longitude) values ('Grasskamp', -6.5114699, 106.8325872);
+insert into locations (name, latitude, longitude) values ('Grasskamp', -21.4649238, -47.0145295);
+insert into locations (name, latitude, longitude) values ('Butternut', 43.3032794, 5.380142);
+insert into locations (name, latitude, longitude) values ('Judy', 14.3839328, 121.050126);
+insert into locations (name, latitude, longitude) values ('Sycamore', 32.993106, 97.008784);
+insert into locations (name, latitude, longitude) values ('Garrison', 6.10376, 124.405998);
+insert into locations (name, latitude, longitude) values ('Fairview', 9.97788, -84.762933);
+insert into locations (name, latitude, longitude) values ('Iowa', -5.3102888, 119.742604);
+insert into locations (name, latitude, longitude) values ('Thackeray', 63.5239965, 16.4712058);
+insert into locations (name, latitude, longitude) values ('Laurel', -25.1023112, -51.1376317);
+insert into locations (name, latitude, longitude) values ('Blue Bill Park', -7.2630131, 112.7211714);
+insert into locations (name, latitude, longitude) values ('Wayridge', 40.4369802, -7.9617993);
+insert into locations (name, latitude, longitude) values ('Texas', 23.03616, 113.197169);
+insert into locations (name, latitude, longitude) values ('Summerview', 41.5660291, -8.6268918);
+insert into locations (name, latitude, longitude) values ('Manufacturers', -20.893334, 55.4421425);
+insert into locations (name, latitude, longitude) values ('Lindbergh', 35.9528417, 139.0791865);
+insert into locations (name, latitude, longitude) values ('Surrey', 14.0875558, 121.1774182);
+insert into locations (name, latitude, longitude) values ('Sullivan', -7.3254723, 108.207356);
+insert into locations (name, latitude, longitude) values ('Pankratz', -6.956164, 106.7714);
+insert into locations (name, latitude, longitude) values ('1st', -7.5450262, 111.6556388);
+insert into locations (name, latitude, longitude) values ('Brickson Park', 30.1631687, 71.5263363);
+insert into locations (name, latitude, longitude) values ('Union', 45.40351, 13.872724);
+insert into locations (name, latitude, longitude) values ('Express', -23.7981763, -48.5962748);
+insert into locations (name, latitude, longitude) values ('Mesta', 30.7959602, 120.6060568);
+insert into locations (name, latitude, longitude) values ('Katie', 14.5508865, 121.0075554);
+insert into locations (name, latitude, longitude) values ('Golden Leaf', 35.4358216, 126.7020806);
+insert into locations (name, latitude, longitude) values ('Delaware', 13.5085076, 123.1804731);
+insert into locations (name, latitude, longitude) values ('Duke', 5.759368, -73.91453);
+insert into locations (name, latitude, longitude) values ('Manley', -0.5833333, 73.2333333);
+insert into locations (name, latitude, longitude) values ('Chive', 28.73733, 118.626991);
+insert into locations (name, latitude, longitude) values ('Iowa', 14.5665991, 121.0022623);
+insert into locations (name, latitude, longitude) values ('Heath', 43.4321902, 46.0788428);
+insert into locations (name, latitude, longitude) values ('Beilfuss', 51.149402, 34.3175225);
+insert into locations (name, latitude, longitude) values ('Little Fleur', 26.319938, 113.810157);
+insert into locations (name, latitude, longitude) values ('Morrow', 43.1627276, 45.6198851);
+insert into locations (name, latitude, longitude) values ('Mifflin', 38.9814589, 139.934112);
+insert into locations (name, latitude, longitude) values ('Village Green', 26.5502644, 37.9678652);
+insert into locations (name, latitude, longitude) values ('Petterle', 57.1734042, 14.0299287);
+insert into locations (name, latitude, longitude) values ('Nevada', 38.2911575, -0.6322615);
+insert into locations (name, latitude, longitude) values ('Tennyson', 43.47139, 43.84694);
+insert into locations (name, latitude, longitude) values ('Stang', -6.1492453, 106.8906727);
+insert into locations (name, latitude, longitude) values ('1st', -8.4507433, 115.3219823);
+insert into locations (name, latitude, longitude) values ('Sauthoff', -7.1364308, 110.4098775);
+insert into locations (name, latitude, longitude) values ('Westport', 50.4427733, 14.9233449);
+insert into locations (name, latitude, longitude) values ('Mandrake', 18.4320055, 98.9024603);
+insert into locations (name, latitude, longitude) values ('Marquette', 47.2265307, 2.0598182);
+insert into locations (name, latitude, longitude) values ('Tomscot', 49.8401383, 20.0045112);
+insert into locations (name, latitude, longitude) values ('Sage', 43.1971197, 43.9157627);
+insert into locations (name, latitude, longitude) values ('Rieder', 28.445007, 102.639837);
+insert into locations (name, latitude, longitude) values ('Rusk', 27.8145109, 128.9093866);
+insert into locations (name, latitude, longitude) values ('Bashford', 31.859653, 120.558606);
+insert into locations (name, latitude, longitude) values ('Acker', 7.37823, -72.6503369);
+insert into locations (name, latitude, longitude) values ('Anzinger', 49.0757178, 107.0295809);
+insert into locations (name, latitude, longitude) values ('Larry', -24.5002295, -47.8448116);
+insert into locations (name, latitude, longitude) values ('Vermont', 51.0888487, 24.526718);
+insert into locations (name, latitude, longitude) values ('Jenifer', 13.17535, 44.27461);
+insert into locations (name, latitude, longitude) values ('Portage', 4.6690872, -74.1386906);
+insert into locations (name, latitude, longitude) values ('Brentwood', -4.203866, 36.927071);
+insert into locations (name, latitude, longitude) values ('Homewood', -7.2758, 107.1329);
+insert into locations (name, latitude, longitude) values ('Northfield', 32.650887, 101.505519);
+insert into locations (name, latitude, longitude) values ('Blaine', 31.248842, 88.417003);
+insert into locations (name, latitude, longitude) values ('Hintze', -37.1954967, 174.9497836);
+insert into locations (name, latitude, longitude) values ('Anhalt', 25.410654, 107.88645);
+insert into locations (name, latitude, longitude) values ('Green Ridge', 24.908293, 102.650211);
+insert into locations (name, latitude, longitude) values ('Manufacturers', -8.2322924, 124.6806813);
+insert into locations (name, latitude, longitude) values ('Eagan', 8.7178672, -11.951925);
+insert into locations (name, latitude, longitude) values ('Daystar', 51.8792137, 39.5849504);
+insert into locations (name, latitude, longitude) values ('Tomscot', -20.0421785, -47.7563994);
+insert into locations (name, latitude, longitude) values ('Milwaukee', 46.6202927, -64.386599);
+insert into locations (name, latitude, longitude) values ('Mockingbird', -7.280135, 112.6347636);
+insert into locations (name, latitude, longitude) values ('Bluestem', 11.7928739, 7.6168439);
+insert into locations (name, latitude, longitude) values ('Village Green', 44.4421587, 8.7866738);
+insert into locations (name, latitude, longitude) values ('Havey', -26.8268706, -65.2705688);
+insert into locations (name, latitude, longitude) values ('Anderson', 32.256909, 112.24048);
+insert into locations (name, latitude, longitude) values ('Oak Valley', 28.5828673, 121.3872734);
+insert into locations (name, latitude, longitude) values ('Northwestern', 14.295795, 120.9905117);
+insert into locations (name, latitude, longitude) values ('Muir', 12.2570417, 109.04532);
+insert into locations (name, latitude, longitude) values ('Buell', 62.8291624, 22.910026);
+insert into locations (name, latitude, longitude) values ('Melrose', 38.0244455, 140.0946079);
+insert into locations (name, latitude, longitude) values ('Sage', -14.2697392, -170.6618234);
+insert into locations (name, latitude, longitude) values ('Anderson', -2.1678255, 33.5811995);
+insert into locations (name, latitude, longitude) values ('Mayfield', 14.4783119, 121.0331004);
+insert into locations (name, latitude, longitude) values ('Dunning', -25.4302418, -55.2590707);
+insert into locations (name, latitude, longitude) values ('Eagle Crest', -7.2119433, 108.1591732);
+insert into locations (name, latitude, longitude) values ('Hoard', -16.3753091, -58.4059227);
+insert into locations (name, latitude, longitude) values ('Heffernan', 48.942644, 116.72495);
+insert into locations (name, latitude, longitude) values ('Ilene', 59.9173309, 10.8180311);
+insert into locations (name, latitude, longitude) values ('Doe Crossing', 49.9778407, 16.9717754);
+insert into locations (name, latitude, longitude) values ('Hudson', 48.3343908, 24.8195808);
+insert into locations (name, latitude, longitude) values ('Buena Vista', 52.0610443, 17.8504238);
+insert into locations (name, latitude, longitude) values ('Hanson', 54.5815949, 54.5367341);
+insert into locations (name, latitude, longitude) values ('Macpherson', 51.2688569, 22.636336);
+insert into locations (name, latitude, longitude) values ('Heath', 42.9107635, 20.8386377);
+insert into locations (name, latitude, longitude) values ('Prairie Rose', -23.701721, -52.6600232);
+insert into locations (name, latitude, longitude) values ('Ryan', 45.597839, 126.637515);
+insert into locations (name, latitude, longitude) values ('Paget', 25.038296, 102.664376);
+insert into locations (name, latitude, longitude) values ('Miller', 53.7431909, 18.6894607);
