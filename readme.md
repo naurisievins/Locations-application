@@ -7,7 +7,7 @@
 - Clone the repository to your local machine.
 - Make sure Docker is installed and running on your system.
 - Navigate to the root directory of the application in your terminal.
-- Run the command docker-compose up --build. This will build and start the Docker containers needed to run the application.
+- Run the command `docker-compose up --build`. This will build and start the Docker containers needed to run the application.
 - Once the application has loaded, open your browser and navigate to http://localhost:5173/.
 
 Tools used:
