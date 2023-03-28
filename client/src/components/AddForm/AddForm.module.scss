@@ -1,0 +1,50 @@
+.form_container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  align-items: center;
+  width: 77%;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #242222f7;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.form_label {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 90%;
+  gap: 3px;
+}
+
+.input {
+  padding: 4px 7px;
+  border-radius: 5px;
+  border: 1px solid rgb(26, 120, 207);
+  width: 90%;
+}
+
+.button_container {
+  display: flex;
+  gap: 7px;
+  padding: 5px
+}
+
+.invalid_input_msg {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px;
+  margin: 0 -10px;
+  text-align: start;
+  gap: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(223, 157, 157, 0.452);
+  color: rgb(216, 213, 213);
+}

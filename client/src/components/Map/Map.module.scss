@@ -1,0 +1,17 @@
+.map_container {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  gap: 10px;
+  border: 2px solid white;
+  background-color: #ffffff14;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+@media only screen and (max-width: 1225px) {
+  .map_container {
+    width: 100%;
+    padding: 5px 5px;
+  }
+}
