@@ -3,7 +3,7 @@ import styles from "./AddForm.module.scss";
 import axios from "axios";
 import { Location } from "../../App";
 import { validateLocation } from "../../utility/validateLocation";
-import { toast } from 'react-toastify';
+import { toast } from "react-toastify";
 
 type AddFormProps = {
   setShowAddForm: Function;
@@ -35,37 +35,37 @@ export default function AddForm({
   locations,
   setLocations,
 }: AddFormProps) {
-
-  const [newLocation, setNewLocation] = useState<NewLocation>(newLocationInitial);
-  const [isValidInput, setIsValidInput] = useState(IsValidInput);
+  const [newLocation, setNewLocation] =
+    useState<NewLocation>(newLocationInitial);
+  const [isValidInput, setIsValidInput] = useState(IsValidInput); // To show error message for specific field
 
   const onFormSubmit = () => {
     const isValid = Object.values(validateLocation(newLocation)).every(
-      (value) => value === true
+      (value) => value
     );
 
-    if (isValid) {
-      axios
-        .post("http://localhost:3004/post-location", newLocation)
-        .then(({ data }) => {
-          setLocations([...locations, data]);
-          toast.success(`New location with id ${data.id} added successfully.`)
-        })
-        .catch(() => toast.error('Couldn\'t add location.'));
-
-      setNewLocation(newLocationInitial);
-      setShowAddForm(false);
+    if (!isValid) {
+      const { name, latitude, longitude } = validateLocation(newLocation);
+      setIsValidInput({
+        name,
+        latitude,
+        longitude,
+        valid: false,
+      });
 
       return;
     }
 
-    const { name, latitude, longitude } = validateLocation(newLocation);
-    setIsValidInput({
-      name,
-      latitude,
-      longitude,
-      valid: false,
-    });
+    axios
+      .post("http://localhost:3004/post-location", newLocation)
+      .then(({ data }) => {
+        setLocations([...locations, data]);
+        toast.success(`New location with id ${data.id} added successfully.`);
+      })
+      .catch(() => toast.error("Couldn't add location."));
+
+    setNewLocation(newLocationInitial);
+    setShowAddForm(false);
   };
 
   return (
@@ -114,7 +114,10 @@ export default function AddForm({
           required
           value={newLocation.longitude}
           onChange={(e) =>
-            setNewLocation({ ...newLocation, longitude: Number(e.target.value) })
+            setNewLocation({
+              ...newLocation,
+              longitude: Number(e.target.value),
+            })
           }
         />
       </label>

@@ -5,7 +5,7 @@
 ### To run the application:
 
 - Clone the repository to your local machine.
-- Navigate to the root directory of the application and set the appropriate MySQL credentials in the .env file.
+- Navigate to the root directory of the application, and change the file name .env.example to .env. Then, open the file and set the appropriate MySQL credentials.
 - Make sure Docker is installed and running on your system.
 - Navigate to the root directory of the application in your terminal.
 - Run the command `docker-compose -p optimistic up --build`. This will build and start the Docker containers needed to run the application.

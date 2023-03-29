@@ -9,47 +9,33 @@ import Pagination from "../Pagination/Pagination";
 type LocationsProps = {
   locations: Location[];
   setLocations: Function;
+  loading: boolean;
+  error: boolean;
+  errorMsg: string;
 };
+const itemsPerPage = 25;
 
-export default function Locations({ locations, setLocations }: LocationsProps) {
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(false);
-  const [errorMsg, setErrorMsg] = useState("");
+export default function Locations({ locations, setLocations, loading, error, errorMsg }: LocationsProps) {
   const [currentPage, setCurrentPage] = useState(0);
   const [showAddForm, setShowAddForm] = useState(false);
-  const itemsPerPage = 25;
   const totalPages = Math.ceil(locations.length / itemsPerPage - 1);
-
-  useEffect(() => {
-    setLoading(true);
-
-    axios
-      .get<Location[]>("http://localhost:3004/locations")
-      .then(({ data }) => {
-        setLocations(data);
-        setLoading(false);
-      })
-      .catch((err) => {
-        setLoading(false);
-        setError(true);
-        setErrorMsg(err.message);
-      });
-  }, []);
 
   const onDelete = (id: number) => {
     const confirmation = confirm(
       `Are you sure you want to delete item width id: ${id} from the list?`
     );
 
-    if (confirmation) {
-      axios.delete(`http://localhost:3004/delete-location/${id}`).then(() => {
-        const filteredLocations = locations.filter(
-          (location) => location.id !== id
-        );
-        setLocations(filteredLocations);
-        toast.success(`Location with id ${id} deleted successfully.`);
-      });
+    if (!confirmation) {
+      return
     }
+
+    axios.delete(`http://localhost:3004/delete-location/${id}`).then(() => {
+      const filteredLocations = locations.filter(
+        (location) => location.id !== id
+      );
+      setLocations(filteredLocations);
+      toast.success(`Location with id ${id} deleted successfully.`);
+    });
   };
 
   return (

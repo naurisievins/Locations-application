@@ -32,10 +32,12 @@ app.post("/post-location", (req: Request, res: Response) => {
   const longitude = req.body.longitude;
 
   if (
-    validateName(name) &&
-    validateLatLong(latitude, -90, 90) &&
-    validateLatLong(longitude, -180, 180)
+    !validateName(name) ||
+    !validateLatLong(latitude, -90, 90) ||
+    !validateLatLong(longitude, -180, 180)
   ) {
+    return res.status(400).send("Missing or invalid data.");
+  } else {
     pool.query(
       "INSERT INTO locations (name, latitude, longitude) VALUES (?, ?, ?)",
       [name, latitude, longitude],
@@ -51,7 +53,7 @@ app.post("/post-location", (req: Request, res: Response) => {
             if (error) throw error;
 
             const insertedLocation = result[0];
-            res.status(200).send(JSON.stringify(insertedLocation));
+            res.status(200).json(insertedLocation);
           }
         );
       }
