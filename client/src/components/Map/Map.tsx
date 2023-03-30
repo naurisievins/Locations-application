@@ -9,6 +9,7 @@ import {
 import { Location } from "../../App";
 import { useState } from "react";
 import SelectMarkers from "../SelectMarkers/SelectMarkers";
+import { v4 as uuid } from "uuid";
 
 type MapProps = {
   locations: Location[];
@@ -58,7 +59,7 @@ export default function Map({ locations }: MapProps) {
         ))}
 
         <Polyline
-          key={Math.random()}
+          key={uuid()}
           color={"#1E90FF"}
           weight={1}
           positions={positions}
